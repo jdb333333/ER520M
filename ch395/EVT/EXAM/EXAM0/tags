@@ -1,0 +1,353 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+CH395CMDCheckExist	PUB/CH395CMD.C	/^UINT8 CH395CMDCheckExist(UINT8 testdata)$/;"	f
+CH395CMDGetGlobIntStatus	PUB/CH395CMD.C	/^UINT8 CH395CMDGetGlobIntStatus(void)$/;"	f
+CH395CMDGetGlobIntStatus_ALL	PUB/CH395CMD.C	/^UINT16 CH395CMDGetGlobIntStatus_ALL(void)$/;"	f
+CH395CMDGetMACAddr	PUB/CH395CMD.C	/^void CH395CMDGetMACAddr(UINT8 *amcaddr)$/;"	f
+CH395CMDGetPHYStatus	PUB/CH395CMD.C	/^UINT8 CH395CMDGetPHYStatus(void)$/;"	f
+CH395CMDGetRemoteIPP	PUB/CH395CMD.C	/^void CH395CMDGetRemoteIPP(UINT8 sockindex,UINT8 *list)$/;"	f
+CH395CMDGetSocketStatus	PUB/CH395CMD.C	/^void CH395CMDGetSocketStatus(UINT8 sockindex,UINT8 *status)$/;"	f
+CH395CMDGetUnreachIPPT	PUB/CH395CMD.C	/^void CH395CMDGetUnreachIPPT(UINT8 *list)$/;"	f
+CH395CMDGetVer	PUB/CH395CMD.C	/^UINT8 CH395CMDGetVer(void)$/;"	f
+CH395CMDInitCH395	PUB/CH395CMD.C	/^UINT8 CH395CMDInitCH395(void)$/;"	f
+CH395CMDReset	PUB/CH395CMD.C	/^void CH395CMDReset(void)$/;"	f
+CH395CMDSetGWIPAddr	PUB/CH395CMD.C	/^void CH395CMDSetGWIPAddr(UINT8 *gwipaddr)$/;"	f
+CH395CMDSetIPAddr	PUB/CH395CMD.C	/^void CH395CMDSetIPAddr(UINT8 *ipaddr)$/;"	f
+CH395CMDSetMACAddr	PUB/CH395CMD.C	/^void CH395CMDSetMACAddr(UINT8 *amcaddr)$/;"	f
+CH395CMDSetMACFilt	PUB/CH395CMD.C	/^void CH395CMDSetMACFilt(UINT8 filtype,UINT32 table0,UINT32 table1)$/;"	f
+CH395CMDSetMASKAddr	PUB/CH395CMD.C	/^void CH395CMDSetMASKAddr(UINT8 *maskaddr)$/;"	f
+CH395CMDSetPHY	PUB/CH395CMD.C	/^void CH395CMDSetPHY(UINT8 phystat)$/;"	f
+CH395CMDSetRetryCount	PUB/CH395CMD.C	/^void CH395CMDSetRetryCount(UINT8 count)$/;"	f
+CH395CMDSetRetryPeriod	PUB/CH395CMD.C	/^void CH395CMDSetRetryPeriod(UINT16 period)$/;"	f
+CH395CMDSetUartBaudRate	PUB/CH395CMD.C	/^void CH395CMDSetUartBaudRate(UINT32 baudrate)$/;"	f
+CH395CMDSleep	PUB/CH395CMD.C	/^void CH395CMDSleep(void)$/;"	f
+CH395CRCRet6Bit	PUB/CH395CMD.C	/^UINT8 CH395CRCRet6Bit(UINT8 *mac_addr)$/;"	f
+CH395ClearRecvBuf	PUB/CH395CMD.C	/^void CH395ClearRecvBuf(UINT8 sockindex)$/;"	f
+CH395CloseSocket	PUB/CH395CMD.C	/^UINT8  CH395CloseSocket(UINT8 sockindex)$/;"	f
+CH395DHCPEnable	PUB/CH395CMD.C	/^UINT8  CH395DHCPEnable(UINT8 flag)$/;"	f
+CH395EEPROMErase	PUB/CH395CMD.C	/^UINT8 CH395EEPROMErase(void)$/;"	f
+CH395EEPROMRead	PUB/CH395CMD.C	/^void CH395EEPROMRead(UINT16 eepaddr,UINT8 *buf,UINT8 len)$/;"	f
+CH395EEPROMWrite	PUB/CH395CMD.C	/^UINT8 CH395EEPROMWrite(UINT16 eepaddr,UINT8 *buf,UINT8 len)$/;"	f
+CH395EnablePing	PUB/CH395CMD.C	/^void CH395EnablePing(UINT8 enable)$/;"	f
+CH395GWIPAddr	CH395.C	/^const UINT8 CH395GWIPAddr[4] = {192,168,1,1};                        \/* CH395网关 *\/$/;"	v
+CH395GetCmdStatus	PUB/CH395CMD.C	/^UINT8 CH395GetCmdStatus(void)$/;"	f
+CH395GetDHCPStatus	PUB/CH395CMD.C	/^UINT8 CH395GetDHCPStatus(void)$/;"	f
+CH395GetIPInf	PUB/CH395CMD.C	/^void CH395GetIPInf(UINT8 *addr)$/;"	f
+CH395GetRecvData	PUB/CH395CMD.C	/^void CH395GetRecvData(UINT8 sockindex,UINT16 len,UINT8 *pbuf)$/;"	f
+CH395GetRecvLength	PUB/CH395CMD.C	/^UINT16 CH395GetRecvLength(UINT8 sockindex)$/;"	f
+CH395GetSocketInt	PUB/CH395CMD.C	/^UINT8 CH395GetSocketInt(UINT8 sockindex)$/;"	f
+CH395GlobalInterrupt	CH395.C	/^void CH395GlobalInterrupt(void)$/;"	f
+CH395IPAddr	CH395.C	/^const UINT8 CH395IPAddr[4] = {192,168,1,10};                         \/* CH395IP地址 *\/$/;"	v
+CH395IPMask	CH395.C	/^const UINT8 CH395IPMask[4] = {255,255,255,0};                        \/* CH395子网掩码 *\/$/;"	v
+CH395Inf	CH395.C	/^struct _CH395_SYS xdata CH395Inf;                                    \/* 保存CH395信息 *\/$/;"	v	typeref:struct:xdata
+CH395Init	CH395.C	/^UINT8  CH395Init(void)$/;"	f
+CH395KeepLiveCNT	PUB/CH395CMD.C	/^void CH395KeepLiveCNT(UINT8 cnt)$/;"	f
+CH395KeepLiveIDLE	PUB/CH395CMD.C	/^void CH395KeepLiveIDLE(UINT32 idle)$/;"	f
+CH395KeepLiveINTVL	PUB/CH395CMD.C	/^void CH395KeepLiveINTVL(UINT32 intvl)$/;"	f
+CH395OpenSocket	PUB/CH395CMD.C	/^UINT8  CH395OpenSocket(UINT8 sockindex)$/;"	f
+CH395ReadGPIOAddr	PUB/CH395CMD.C	/^UINT8 CH395ReadGPIOAddr(UINT8 regadd)$/;"	f
+CH395SendData	PUB/CH395CMD.C	/^void CH395SendData(UINT8 sockindex,UINT8 *databuf,UINT16 len)$/;"	f
+CH395SetKeepLive	PUB/CH395CMD.C	/^void CH395SetKeepLive(UINT8 sockindex,UINT8 cmd)$/;"	f
+CH395SetSocketDesIP	PUB/CH395CMD.C	/^void CH395SetSocketDesIP(UINT8 sockindex,UINT8 *ipaddr)$/;"	f
+CH395SetSocketDesPort	PUB/CH395CMD.C	/^void CH395SetSocketDesPort(UINT8 sockindex,UINT16 desprot)$/;"	f
+CH395SetSocketIPRAWProto	PUB/CH395CMD.C	/^void CH395SetSocketIPRAWProto(UINT8 sockindex,UINT8 prototype)$/;"	f
+CH395SetSocketProtType	PUB/CH395CMD.C	/^void CH395SetSocketProtType(UINT8 sockindex,UINT8 prottype)$/;"	f
+CH395SetSocketRecvBuf	PUB/CH395CMD.C	/^void CH395SetSocketRecvBuf(UINT8 sockindex,UINT8 startblk,UINT8 blknum)$/;"	f
+CH395SetSocketSendBuf	PUB/CH395CMD.C	/^void CH395SetSocketSendBuf(UINT8 sockindex,UINT8 startblk,UINT8 blknum)$/;"	f
+CH395SetSocketSourPort	PUB/CH395CMD.C	/^void CH395SetSocketSourPort(UINT8 sockindex,UINT16 surprot)$/;"	f
+CH395SetStartPara	PUB/CH395CMD.C	/^void CH395SetStartPara(UINT32 mdata)$/;"	f
+CH395SetTCPMss	PUB/CH395CMD.C	/^void CH395SetTCPMss(UINT16 tcpmss)$/;"	f
+CH395SetTTLNum	PUB/CH395CMD.C	/^void CH395SetTTLNum(UINT8 sockindex,UINT8 TTLnum)$/;"	f
+CH395SocketInitOpen	CH395.C	/^void CH395SocketInitOpen(void)$/;"	f
+CH395SocketInterrupt	CH395.C	/^void CH395SocketInterrupt(UINT8 sockindex)$/;"	f
+CH395TCPConnect	PUB/CH395CMD.C	/^UINT8 CH395TCPConnect(UINT8 sockindex)$/;"	f
+CH395TCPDisconnect	PUB/CH395CMD.C	/^UINT8 CH395TCPDisconnect(UINT8 sockindex)$/;"	f
+CH395TCPListen	PUB/CH395CMD.C	/^UINT8 CH395TCPListen(UINT8 sockindex)$/;"	f
+CH395UDPSendTo	PUB/CH395CMD.C	/^void CH395UDPSendTo(UINT8 *buf,UINT32 len,UINT8 *ip,UINT16 port,UINT8 sockindex)$/;"	f
+CH395WriteGPIOAddr	PUB/CH395CMD.C	/^void CH395WriteGPIOAddr(UINT8 regadd,UINT8 regval)$/;"	f
+CH395_A0	PUB/CH395PARA_SW.C	/^sbit    CH395_A0        =          P2^0;$/;"	v
+CH395_CS	PUB/CH395PARA_SW.C	/^sbit    CH395_CS        =          P2^6;$/;"	v
+CH395_DATA_DAT_IN	PUB/CH395PARA_SW.C	24;"	d	file:
+CH395_DATA_DAT_OUT	PUB/CH395PARA_SW.C	23;"	d	file:
+CH395_DATA_DIR_IN	PUB/CH395PARA_SW.C	26;"	d	file:
+CH395_DATA_DIR_OUT	PUB/CH395PARA_SW.C	25;"	d	file:
+CH395_DEBUG	CH395.C	49;"	d	file:
+CH395_ERR_ABRT	PUB/CH395INC.H	311;"	d
+CH395_ERR_ARG	PUB/CH395INC.H	316;"	d
+CH395_ERR_BUF	PUB/CH395INC.H	308;"	d
+CH395_ERR_BUSY	PUB/CH395INC.H	306;"	d
+CH395_ERR_CLSD	PUB/CH395INC.H	313;"	d
+CH395_ERR_CONN	PUB/CH395INC.H	314;"	d
+CH395_ERR_IF	PUB/CH395INC.H	318;"	d
+CH395_ERR_ISCONN	PUB/CH395INC.H	319;"	d
+CH395_ERR_MEM	PUB/CH395INC.H	307;"	d
+CH395_ERR_OPEN	PUB/CH395INC.H	320;"	d
+CH395_ERR_RST	PUB/CH395INC.H	312;"	d
+CH395_ERR_RTE	PUB/CH395INC.H	310;"	d
+CH395_ERR_TIMEOUT	PUB/CH395INC.H	309;"	d
+CH395_ERR_UNKNOW	PUB/CH395INC.H	321;"	d
+CH395_ERR_USE	PUB/CH395INC.H	317;"	d
+CH395_ERR_VAL	PUB/CH395INC.H	315;"	d
+CH395_INT_WIRE	PUB/CH395PARA_HW.C	20;"	d	file:
+CH395_INT_WIRE	PUB/CH395PARA_SW.C	28;"	d	file:
+CH395_INT_WIRE	PUB/CH395SPI_HW.C	27;"	d	file:
+CH395_INT_WIRE	PUB/CH395SPI_SW.C	26;"	d	file:
+CH395_INT_WIRE	PUB/CH395UART.C	15;"	d	file:
+CH395_OP_INTERFACE_MODE	CH395.C	30;"	d	file:
+CH395_PORT_INIT	PUB/CH395PARA_HW.C	/^void CH395_PORT_INIT(void)$/;"	f
+CH395_PORT_INIT	PUB/CH395PARA_SW.C	/^void CH395_PORT_INIT(void)$/;"	f
+CH395_PORT_INIT	PUB/CH395SPI_HW.C	/^void CH395_PORT_INIT(void)$/;"	f
+CH395_PORT_INIT	PUB/CH395SPI_SW.C	/^void CH395_PORT_INIT(void)$/;"	f
+CH395_PORT_INIT	PUB/CH395UART.C	/^void CH395_PORT_INIT(void)$/;"	f
+CH395_PPPERR_ALLOC	PUB/CH395INC.H	328;"	d
+CH395_PPPERR_AUTHFAIL	PUB/CH395INC.H	331;"	d
+CH395_PPPERR_CLOSE	PUB/CH395INC.H	334;"	d
+CH395_PPPERR_CONNECT	PUB/CH395INC.H	330;"	d
+CH395_PPPERR_DEVICE	PUB/CH395INC.H	327;"	d
+CH395_PPPERR_OPEN	PUB/CH395INC.H	326;"	d
+CH395_PPPERR_PARM	PUB/CH395INC.H	325;"	d
+CH395_PPPERR_PROTOCOL	PUB/CH395INC.H	332;"	d
+CH395_PPPERR_TIME_OUT	PUB/CH395INC.H	333;"	d
+CH395_PPPERR_USER	PUB/CH395INC.H	329;"	d
+CH395_PPP_SUCCESS	PUB/CH395INC.H	324;"	d
+CH395_RD	PUB/CH395PARA_SW.C	/^sbit    CH395_RD        =          P3^7;$/;"	v
+CH395_SPI_SCK	PUB/CH395SPI_SW.C	24;"	d	file:
+CH395_SPI_SCS	PUB/CH395SPI_HW.C	19;"	d	file:
+CH395_SPI_SCS	PUB/CH395SPI_SW.C	21;"	d	file:
+CH395_SPI_SDI	PUB/CH395SPI_SW.C	22;"	d	file:
+CH395_SPI_SDO	PUB/CH395SPI_SW.C	23;"	d	file:
+CH395_WR	PUB/CH395PARA_SW.C	/^sbit    CH395_WR        =          P3^6;$/;"	v
+CMD00_EEPROM_ERASE	PUB/CH395INC.H	244;"	d
+CMD00_ENTER_SLEEP	PUB/CH395INC.H	78;"	d
+CMD00_PPPOE_SET_PASSWORD	PUB/CH395INC.H	205;"	d
+CMD00_PPPOE_SET_USER_NAME	PUB/CH395INC.H	202;"	d
+CMD00_RESET_ALL	PUB/CH395INC.H	80;"	d
+CMD014_GET_IP_INF	PUB/CH395INC.H	199;"	d
+CMD01_GET_CMD_STATUS	PUB/CH395INC.H	129;"	d
+CMD01_GET_DHCP_STATUS	PUB/CH395INC.H	196;"	d
+CMD01_GET_GLOB_INT_STATUS	PUB/CH395INC.H	120;"	d
+CMD01_GET_IC_VER	PUB/CH395INC.H	70;"	d
+CMD01_GET_PHY_STATUS	PUB/CH395INC.H	108;"	d
+CMD01_GET_PPPOE_STATUS	PUB/CH395INC.H	211;"	d
+CMD01_PING_ENABLE	PUB/CH395INC.H	188;"	d
+CMD02_GET_GLOB_INT_STATUS_ALL	PUB/CH395INC.H	86;"	d
+CMD06_GET_MAC_ADDR	PUB/CH395INC.H	191;"	d
+CMD06_GET_REMOT_IPP_SN	PUB/CH395INC.H	132;"	d
+CMD08_GET_UNREACH_IPPORT	PUB/CH395INC.H	114;"	d
+CMD0W_INIT_CH395	PUB/CH395INC.H	111;"	d
+CMD10_CLEAR_RECV_BUF_SN	PUB/CH395INC.H	135;"	d
+CMD10_DHCP_ENABLE	PUB/CH395INC.H	194;"	d
+CMD10_PPPOE_ENABLE	PUB/CH395INC.H	208;"	d
+CMD10_READ_GPIO_REG	PUB/CH395INC.H	252;"	d
+CMD10_SET_KEEP_LIVE_CNT	PUB/CH395INC.H	238;"	d
+CMD10_SET_MAC_RECV_BUF	PUB/CH395INC.H	226;"	d
+CMD10_SET_PHY	PUB/CH395INC.H	89;"	d
+CMD10_SET_RETRAN_COUNT	PUB/CH395INC.H	123;"	d
+CMD11_CHECK_EXIST	PUB/CH395INC.H	82;"	d
+CMD11_GET_INT_STATUS_SN	PUB/CH395INC.H	143;"	d
+CMD12_GET_RECV_LEN_SN	PUB/CH395INC.H	174;"	d
+CMD12_GET_SOCKET_STATUS_SN	PUB/CH395INC.H	138;"	d
+CMD1W_CLOSE_SOCKET_SN	PUB/CH395INC.H	182;"	d
+CMD1W_OPEN_SOCKET_SN	PUB/CH395INC.H	159;"	d
+CMD1W_TCP_CONNECT_SN	PUB/CH395INC.H	165;"	d
+CMD1W_TCP_DISNCONNECT_SN	PUB/CH395INC.H	168;"	d
+CMD1W_TCP_LISTEN_SN	PUB/CH395INC.H	162;"	d
+CMD20_SET_IPRAW_PRO_SN	PUB/CH395INC.H	185;"	d
+CMD20_SET_KEEP_LIVE_SN	PUB/CH395INC.H	241;"	d
+CMD20_SET_PROTO_TYPE_SN	PUB/CH395INC.H	156;"	d
+CMD20_SET_RETRAN_PERIOD	PUB/CH395INC.H	126;"	d
+CMD20_SET_TCP_MSS	PUB/CH395INC.H	214;"	d
+CMD20_SET_TTL	PUB/CH395INC.H	217;"	d
+CMD20_WRITE_GPIO_REG	PUB/CH395INC.H	255;"	d
+CMD30_EEPROM_READ	PUB/CH395INC.H	249;"	d
+CMD30_EEPROM_WRITE	PUB/CH395INC.H	246;"	d
+CMD30_READ_RECV_BUF_SN	PUB/CH395INC.H	178;"	d
+CMD30_SET_DES_PORT_SN	PUB/CH395INC.H	150;"	d
+CMD30_SET_RECV_BUF	PUB/CH395INC.H	220;"	d
+CMD30_SET_SEND_BUF	PUB/CH395INC.H	223;"	d
+CMD30_SET_SOUR_PORT_SN	PUB/CH395INC.H	153;"	d
+CMD30_WRITE_SEND_BUF_SN	PUB/CH395INC.H	171;"	d
+CMD31_SET_BAUDRATE	PUB/CH395INC.H	74;"	d
+CMD40_SET_FUN_PARA	PUB/CH395INC.H	229;"	d
+CMD40_SET_GWIP_ADDR	PUB/CH395INC.H	98;"	d
+CMD40_SET_IP_ADDR	PUB/CH395INC.H	95;"	d
+CMD40_SET_KEEP_LIVE_IDLE	PUB/CH395INC.H	232;"	d
+CMD40_SET_KEEP_LIVE_INTVL	PUB/CH395INC.H	235;"	d
+CMD40_SET_MASK_ADDR	PUB/CH395INC.H	101;"	d
+CMD50_SET_IP_ADDR_SN	PUB/CH395INC.H	147;"	d
+CMD60_SET_MAC_ADDR	PUB/CH395INC.H	92;"	d
+CMD90_SET_MAC_FILT	PUB/CH395INC.H	104;"	d
+CMD_ERR_SUCCESS	PUB/CH395INC.H	304;"	d
+CMD_RET_ABORT	PUB/CH395INC.H	305;"	d
+DesPort	CH395.H	/^    UINT16 DesPort;                                             \/* 目的端口 *\/$/;"	m	struct:_SOCK_INF
+FALSE	PUB/CH395INC.H	20;"	d
+FUN_PARA_FLAG_LOW_PWR	PUB/CH395INC.H	370;"	d
+FUN_PARA_FLAG_TCP_SERVER	PUB/CH395INC.H	369;"	d
+GINT_STAT_DHCP	PUB/CH395INC.H	285;"	d
+GINT_STAT_IP_CONFLI	PUB/CH395INC.H	283;"	d
+GINT_STAT_PHY_CHANGE	PUB/CH395INC.H	284;"	d
+GINT_STAT_SOCK0	PUB/CH395INC.H	286;"	d
+GINT_STAT_SOCK1	PUB/CH395INC.H	287;"	d
+GINT_STAT_SOCK2	PUB/CH395INC.H	288;"	d
+GINT_STAT_SOCK3	PUB/CH395INC.H	289;"	d
+GINT_STAT_SOCK4	PUB/CH395INC.H	290;"	d
+GINT_STAT_SOCK5	PUB/CH395INC.H	291;"	d
+GINT_STAT_SOCK6	PUB/CH395INC.H	292;"	d
+GINT_STAT_SOCK7	PUB/CH395INC.H	293;"	d
+GINT_STAT_UNREACH	PUB/CH395INC.H	282;"	d
+GPIO_CLR_REG	PUB/CH395INC.H	364;"	d
+GPIO_DIR_REG	PUB/CH395INC.H	361;"	d
+GPIO_IN_REG	PUB/CH395INC.H	362;"	d
+GPIO_OUT_REG	PUB/CH395INC.H	363;"	d
+GPIO_PD_REG	PUB/CH395INC.H	366;"	d
+GPIO_PU_REG	PUB/CH395INC.H	365;"	d
+GWIPAddr	CH395.H	/^    UINT8   GWIPAddr[4];                                         \/* CH395网关地址 32bit*\/$/;"	m	struct:_CH395_SYS
+INT16	PUB/CH395INC.H	/^typedef signed short                              INT16;$/;"	t
+INT32	PUB/CH395INC.H	/^typedef signed long                               INT32;$/;"	t
+IPAddr	CH395.H	/^    UINT8   IPAddr[4];                                           \/* CH395IP地址 32bit*\/$/;"	m	struct:_CH395_SYS
+IPAddr	CH395.H	/^    UINT8  IPAddr[4];                                           \/* socket目标IP地址 32bit*\/$/;"	m	struct:_SOCK_INF
+IPRAWProtoType	CH395.H	/^    UINT32 IPRAWProtoType;                                      \/* IPRAW 协议类型 *\/$/;"	m	struct:_SOCK_INF
+IPRawProto	CH395.C	/^const UINT8  IPRawProto = 0xE2; $/;"	v
+InitCH395InfParam	CH395.C	/^void InitCH395InfParam(void)$/;"	f
+InitSocketParam	CH395.C	/^void InitSocketParam(void)$/;"	f
+IntfMode	CH395.H	/^    UINT8   IntfMode;                                            \/* 接口模式 *\/$/;"	m	struct:_CH395_SYS
+MAC_FILT_RECV_ALL	PUB/CH395INC.H	275;"	d
+MAC_FILT_RECV_BORADPKT	PUB/CH395INC.H	274;"	d
+MAC_FILT_RECV_ENABLE	PUB/CH395INC.H	277;"	d
+MAC_FILT_RECV_MULTIPKT	PUB/CH395INC.H	276;"	d
+MAC_FILT_SEND_ENABLE	PUB/CH395INC.H	278;"	d
+MASKAddr	CH395.H	/^    UINT8   MASKAddr[4];                                         \/* CH395子网掩码 32bit*\/$/;"	m	struct:_CH395_SYS
+MacAddr	CH395.H	/^    UINT8   MacAddr[6];                                          \/* CH395MAC地址 48bit*\/$/;"	m	struct:_CH395_SYS
+MacAddr	CH395.H	/^    UINT8  MacAddr[6];                                          \/* socket目标地址 48bit*\/$/;"	m	struct:_SOCK_INF
+MackFilt	CH395.H	/^    UINT8   MackFilt;                                            \/* CH395 MAC过滤，默认为接收广播，接收本机MAC 8bit*\/$/;"	m	struct:_CH395_SYS
+MyBuffer	CH395.C	/^UINT8 xdata MyBuffer[4][100];                                        \/* 数据缓冲区 ,此数据缓冲区长度可根据单片机资源适当调大,以提高通讯速度*\/$/;"	v
+NULL	PUB/CH395INC.H	23;"	d
+P14	PUB/CH395SPI_HW.C	/^sbit        P14         =          P1^4;$/;"	v
+P14	PUB/CH395SPI_SW.C	/^sbit    P14          =             P1^4;$/;"	v
+P15	PUB/CH395SPI_SW.C	/^sbit    P15          =             P1^5;$/;"	v
+P16	PUB/CH395SPI_SW.C	/^sbit    P16          =             P1^6;$/;"	v
+P17	PUB/CH395SPI_SW.C	/^sbit    P17          =             P1^7;$/;"	v
+PHYStat	CH395.H	/^    UINT8   PHYStat;                                             \/* CH395 PHY状态码 8bit*\/$/;"	m	struct:_CH395_SYS
+PHY_100M_FLL	PUB/CH395INC.H	269;"	d
+PHY_100M_HALF	PUB/CH395INC.H	270;"	d
+PHY_10M_FLL	PUB/CH395INC.H	267;"	d
+PHY_10M_HALF	PUB/CH395INC.H	268;"	d
+PHY_AUTO	PUB/CH395INC.H	271;"	d
+PHY_DISCONN	PUB/CH395INC.H	266;"	d
+PROTO_TYPE_IP_RAW	PUB/CH395INC.H	260;"	d
+PROTO_TYPE_MAC_RAW	PUB/CH395INC.H	261;"	d
+PROTO_TYPE_TCP	PUB/CH395INC.H	263;"	d
+PROTO_TYPE_UDP	PUB/CH395INC.H	262;"	d
+PUINT16	PUB/CH395INC.H	/^typedef unsigned short                            *PUINT16;$/;"	t
+PUINT32	PUB/CH395INC.H	/^typedef unsigned long                             *PUINT32;$/;"	t
+PUINT8	PUB/CH395INC.H	/^typedef unsigned char                             *PUINT8;$/;"	t
+PUINT8V	PUB/CH395INC.H	/^typedef unsigned char volatile                    *PUINT8V;$/;"	t
+ProtoType	CH395.H	/^    UINT8  ProtoType;                                           \/* 协议类型 *\/$/;"	m	struct:_SOCK_INF
+RemLen	CH395.H	/^    UINT16 RemLen;                                              \/* 剩余长度 *\/$/;"	m	struct:_SOCK_INF
+RetranCount	CH395.H	/^    UINT32  RetranCount;                                         \/* 重试次数 默认为10次*\/$/;"	m	struct:_CH395_SYS
+RetranPeriod	CH395.H	/^    UINT32  RetranPeriod;                                        \/* 重试周期,单位MS,默认200MS *\/$/;"	m	struct:_CH395_SYS
+SER_SYNC_CODE1	PUB/CH395INC.H	344;"	d
+SER_SYNC_CODE2	PUB/CH395INC.H	345;"	d
+SINT_STAT_CONNECT	PUB/CH395INC.H	299;"	d
+SINT_STAT_DISCONNECT	PUB/CH395INC.H	300;"	d
+SINT_STAT_RECV	PUB/CH395INC.H	298;"	d
+SINT_STAT_SENBUF_FREE	PUB/CH395INC.H	296;"	d
+SINT_STAT_SEND_OK	PUB/CH395INC.H	297;"	d
+SINT_STAT_TIM_OUT	PUB/CH395INC.H	301;"	d
+SOCK_CTRL_FLAG_SOCKET_CLOSE	PUB/CH395INC.H	371;"	d
+SOCK_DISABLE_SEND_OK_INT	PUB/CH395INC.H	372;"	d
+SPCR	PUB/CH395SPI_HW.C	/^sfr SPCR = 0xd5;                                                     \/* SPI控制寄存器0xd5 *\/$/;"	v
+SPDR	PUB/CH395SPI_HW.C	/^sfr SPDR = 0x86;                                                     \/* SPI数据寄存器0x86 *\/$/;"	v
+SPI_IF_TRANS	PUB/CH395SPI_HW.C	25;"	d	file:
+SPSR	PUB/CH395SPI_HW.C	/^sfr SPSR = 0xaa;                                                     \/* SPI状态寄存器0xaa *\/$/;"	v
+ScokStatus	CH395.H	/^    UINT8  ScokStatus;                                          \/* socket状态，参考scoket状态定义 *\/$/;"	m	struct:_SOCK_INF
+SendLen	CH395.H	/^    UINT16 SendLen;                                             \/* 发送数据长度 *\/$/;"	m	struct:_SOCK_INF
+SetMCUBaudRate	PUB/CH395UART.C	/^void SetMCUBaudRate(void)                                $/;"	f
+SockInf	CH395.C	/^struct _SOCK_INF xdata SockInf[4];                                   \/* 保存Socket信息 *\/$/;"	v	typeref:struct:xdata
+Socket0DesIP	CH395.C	/^const UINT8  Socket0DesIP[4] = {192,168,1,100};                      \/* Socket 0目的IP地址 *\/$/;"	v
+Socket0DesPort	CH395.C	/^const UINT16 Socket0DesPort = 1000;                                  \/* Socket 0目的端口 *\/$/;"	v
+Socket0SourPort	CH395.C	/^const UINT16 Socket0SourPort = 5000;                                 \/* Socket 0源端口 *\/$/;"	v
+Socket1DesIP	CH395.C	/^const UINT8  Socket1DesIP[4] = {192,168,1,100};                      \/* Socket 1目的IP地址 *\/$/;"	v
+Socket1SourPort	CH395.C	/^const UINT16 Socket1SourPort = 6000;                                 \/* Socket 1源端口 *\/$/;"	v
+Socket2DesIP	CH395.C	/^const UINT8  Socket2DesIP[4] = {192,168,1,100};                      \/* Socket 2目的IP地址 *\/$/;"	v
+Socket2DesPort	CH395.C	/^const UINT16 Socket2DesPort = 3000;                                  \/* Socket 2目的端口 *\/$/;"	v
+Socket2SourPort	CH395.C	/^const UINT16 Socket2SourPort = 7000;                                 \/* Socket 2源端口 *\/$/;"	v
+Socket3DesIP	CH395.C	/^const UINT8  Socket3DesIP[4] = {192,168,1,100};                      \/* Socket 3目的IP地址 *\/$/;"	v
+SourPort	CH395.H	/^    UINT16 SourPort;                                            \/* 目的端口 *\/$/;"	m	struct:_SOCK_INF
+Spi395Exchange	PUB/CH395SPI_HW.C	/^UINT8 Spi395Exchange( UINT8 d )  $/;"	f
+Spi395InByte	PUB/CH395SPI_SW.C	/^UINT8 Spi395InByte(void)                                             \/* SPI输入8位数据 *\/$/;"	f
+Spi395OutByte	PUB/CH395SPI_SW.C	/^void Spi395OutByte(UINT8 mdata)                                      \/* SPI输出8位数据 *\/$/;"	f
+TCP_CLIENT_MODE	CH395.H	13;"	d
+TCP_CLOSED	PUB/CH395INC.H	348;"	d
+TCP_CLOSE_WAIT	PUB/CH395INC.H	355;"	d
+TCP_CLOSING	PUB/CH395INC.H	356;"	d
+TCP_ESTABLISHED	PUB/CH395INC.H	352;"	d
+TCP_FIN_WAIT_1	PUB/CH395INC.H	353;"	d
+TCP_FIN_WAIT_2	PUB/CH395INC.H	354;"	d
+TCP_LAST_ACK	PUB/CH395INC.H	357;"	d
+TCP_LISTEN	PUB/CH395INC.H	349;"	d
+TCP_SERVER_MODE	CH395.H	14;"	d
+TCP_SYN_RCVD	PUB/CH395INC.H	351;"	d
+TCP_SYN_SENT	PUB/CH395INC.H	350;"	d
+TCP_TIME_WAIT	PUB/CH395INC.H	358;"	d
+TRUE	PUB/CH395INC.H	19;"	d
+TcpMode	CH395.H	/^    UINT8  TcpMode;                                             \/* TCP模式 *\/$/;"	m	struct:_SOCK_INF
+UART_INIT_BAUDRATE	PUB/CH395UART.C	17;"	d	file:
+UART_WORK_BAUDRATE	PUB/CH395UART.C	18;"	d	file:
+UINT16	PUB/CH395INC.H	/^typedef unsigned short                            UINT16;$/;"	t
+UINT32	PUB/CH395INC.H	/^typedef unsigned long                             UINT32;$/;"	t
+UINT8	PUB/CH395INC.H	/^typedef unsigned char                             UINT8;$/;"	t
+UINT8V	PUB/CH395INC.H	/^typedef unsigned char volatile                    UINT8V;$/;"	t
+UNREACH_CODE_HOST	PUB/CH395INC.H	337;"	d
+UNREACH_CODE_NET	PUB/CH395INC.H	338;"	d
+UNREACH_CODE_PROT	PUB/CH395INC.H	340;"	d
+UNREACH_CODE_PROTOCOL	PUB/CH395INC.H	339;"	d
+UnreachIPAddr	CH395.H	/^    UINT8   UnreachIPAddr[4];                                    \/* 不可到达IP *\/$/;"	m	struct:_CH395_SYS
+UnreachPort	CH395.H	/^    UINT16  UnreachPort;                                         \/* 不可到达端口 *\/$/;"	m	struct:_CH395_SYS
+_CH395_SYS	CH395.H	/^struct _CH395_SYS$/;"	s
+_SOCK_INF	CH395.H	/^struct _SOCK_INF$/;"	s
+__CH395CMD_H__	PUB/CH395CMD.H	10;"	d
+__CH395INC_H__	PUB/CH395INC.H	11;"	d
+__CH395_H__	CH395.H	10;"	d
+mDelaymS	PUB/CH395PARA_HW.C	/^void mDelaymS( UINT8 ms )$/;"	f
+mDelaymS	PUB/CH395PARA_SW.C	/^void mDelaymS( UINT8 ms )$/;"	f
+mDelaymS	PUB/CH395SPI_HW.C	/^void mDelaymS( UINT8 ms )$/;"	f
+mDelaymS	PUB/CH395SPI_SW.C	/^void mDelaymS(UINT8 ms)$/;"	f
+mDelaymS	PUB/CH395UART.C	/^void mDelaymS(UINT8 ms)$/;"	f
+mDelayuS	PUB/CH395PARA_HW.C	/^void mDelayuS( UINT8 us )$/;"	f
+mDelayuS	PUB/CH395PARA_SW.C	/^void mDelayuS( UINT8 us )$/;"	f
+mDelayuS	PUB/CH395SPI_HW.C	/^void mDelayuS( UINT8 us )$/;"	f
+mDelayuS	PUB/CH395SPI_SW.C	/^void mDelayuS(UINT8 us)$/;"	f
+mDelayuS	PUB/CH395UART.C	/^void mDelayuS(UINT8 us)$/;"	f
+mInitSTDIO	CH395.C	/^void mInitSTDIO( void )$/;"	f
+mStopIfError	CH395.C	/^void mStopIfError(UINT8 iError)$/;"	f
+main	CH395.C	/^int main(void)$/;"	f
+pSend	CH395.H	/^    UINT8  *pSend;                                              \/* 发送指针 *\/                                               $/;"	m	struct:_SOCK_INF
+xBCF0	PUB/CH395PARA_HW.C	/^UINT8V  xdata     CH395_DAT_PORT   _at_ 0xBCF0;                  \/* 假定CH395数据端口的I\/O地址 *\/$/;"	v
+xBDF1	PUB/CH395PARA_HW.C	/^UINT8V  xdata     CH395_CMD_PORT   _at_ 0xBDF1;                  \/* 假定CH395命令端口的I\/O地址 *\/$/;"	v
+xCH395CmdStart	PUB/CH395SPI_HW.C	29;"	d	file:
+xCH395CmdStart	PUB/CH395SPI_SW.C	28;"	d	file:
+xEndCH395Cmd	PUB/CH395PARA_HW.C	102;"	d	file:
+xEndCH395Cmd	PUB/CH395PARA_SW.C	141;"	d	file:
+xEndCH395Cmd	PUB/CH395SPI_HW.C	30;"	d	file:
+xEndCH395Cmd	PUB/CH395SPI_SW.C	29;"	d	file:
+xEndCH395Cmd	PUB/CH395UART.C	148;"	d	file:
+xReadCH395Data	PUB/CH395PARA_HW.C	/^UINT8   xReadCH395Data( void )                                       \/* 从CH395读数据 *\/$/;"	f
+xReadCH395Data	PUB/CH395PARA_SW.C	/^UINT8   xReadCH395Data( void )                                       \/* 从CH395读数据 *\/$/;"	f
+xReadCH395Data	PUB/CH395SPI_HW.C	/^UINT8   xReadCH395Data( void )                                                  $/;"	f
+xReadCH395Data	PUB/CH395SPI_SW.C	/^UINT8   xReadCH395Data( void )                                       \/* 从CH395读数据 *\/$/;"	f
+xReadCH395Data	PUB/CH395UART.C	/^UINT8  xReadCH395Data(void)                                          \/* 从CH395读数据 *\/$/;"	f
+xWriteCH395Cmd	PUB/CH395PARA_HW.C	/^void xWriteCH395Cmd(UINT8 cmd)                                       \/* 向CH395写命令 *\/$/;"	f
+xWriteCH395Cmd	PUB/CH395PARA_SW.C	/^void xWriteCH395Cmd(UINT8 cmd)                                       \/* 向CH395写命令 *\/$/;"	f
+xWriteCH395Cmd	PUB/CH395SPI_HW.C	/^void xWriteCH395Cmd(UINT8 cmd)                                          $/;"	f
+xWriteCH395Cmd	PUB/CH395SPI_SW.C	/^void xWriteCH395Cmd(UINT8 cmd)                                       \/* 向CH395写命令 *\/$/;"	f
+xWriteCH395Cmd	PUB/CH395UART.C	/^void xWriteCH395Cmd(UINT8 cmd)                                      $/;"	f
+xWriteCH395Data	PUB/CH395PARA_HW.C	/^void  xWriteCH395Data(UINT8 mdata)$/;"	f
+xWriteCH395Data	PUB/CH395PARA_SW.C	/^void  xWriteCH395Data(UINT8 mdata)$/;"	f
+xWriteCH395Data	PUB/CH395SPI_HW.C	/^void  xWriteCH395Data(UINT8 mdata)$/;"	f
+xWriteCH395Data	PUB/CH395SPI_SW.C	/^void  xWriteCH395Data(UINT8 mdata)                                  \/* 向CH395写数据 *\/$/;"	f
+xWriteCH395Data	PUB/CH395UART.C	/^void  xWriteCH395Data(UINT8 mdata)$/;"	f

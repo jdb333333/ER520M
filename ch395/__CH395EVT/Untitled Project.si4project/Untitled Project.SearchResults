@@ -1,0 +1,3 @@
+---- FUN_PARA_FLAG_LOW_PWR Matches (2 in 2 files) ----
+CH395Init in CH395.C (EVT\EXAM\EXAM13) :     CH395SetStartPara(FUN_PARA_FLAG_LOW_PWR|SOCK_DISABLE_SEND_OK_INT);                         
+CH395INC.H (EVT\EXAM\PUB) line 370 : #define FUN_PARA_FLAG_LOW_PWR                     (1<<2)                        /* 低耗能模式 */

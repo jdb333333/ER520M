@@ -1,0 +1,54 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CH395EEPROMTEST	CH395.C	/^void CH395EEPROMTEST(void)$/;"	f
+CH395GWIPAddr	CH395.C	/^const UINT8 CH395GWIPAddr[4] = {192,168,1,1};                        \/* CH395网关 *\/$/;"	v
+CH395GlobalInterrupt	CH395.C	/^void CH395GlobalInterrupt(void)$/;"	f
+CH395GpioTest	CH395.C	/^void CH395GpioTest(void)$/;"	f
+CH395IPAddr	CH395.C	/^const UINT8 CH395IPAddr[4] = {192,168,1,10};                         \/* CH395IP地址 *\/$/;"	v
+CH395IPMask	CH395.C	/^const UINT8 CH395IPMask[4] = {255,255,255,0};                        \/* CH395子网掩码 *\/$/;"	v
+CH395Inf	CH395.C	/^struct _CH395_SYS xdata CH395Inf;                                    \/* 保存CH395信息 *\/$/;"	v	typeref:struct:xdata
+CH395Init	CH395.C	/^UINT8  CH395Init(void)$/;"	f
+CH395SocketInitOpen	CH395.C	/^void CH395SocketInitOpen(void)$/;"	f
+CH395SocketInterrupt	CH395.C	/^void CH395SocketInterrupt(UINT8 sockindex)$/;"	f
+CH395_OP_INTERFACE_MODE	CH395.C	30;"	d	file:
+DesPort	CH395.H	/^    UINT16 DesPort;                                             \/* 目的端口 *\/$/;"	m	struct:_SOCK_INF
+GWIPAddr	CH395.H	/^    UINT8   GWIPAddr[4];                                         \/* CH395网关地址 32bit*\/$/;"	m	struct:_CH395_SYS
+IPAddr	CH395.H	/^    UINT8   IPAddr[4];                                           \/* CH395IP地址 32bit*\/$/;"	m	struct:_CH395_SYS
+IPAddr	CH395.H	/^    UINT8  IPAddr[4];                                           \/* socket目标IP地址 32bit*\/$/;"	m	struct:_SOCK_INF
+IPRAWProtoType	CH395.H	/^    UINT32 IPRAWProtoType;                                      \/* IPRAW 协议类型 *\/$/;"	m	struct:_SOCK_INF
+InitCH395InfParam	CH395.C	/^void InitCH395InfParam(void)$/;"	f
+InitSocketParam	CH395.C	/^void InitSocketParam(void)$/;"	f
+IntfMode	CH395.H	/^    UINT8   IntfMode;                                            \/* 接口模式 *\/$/;"	m	struct:_CH395_SYS
+MASKAddr	CH395.H	/^    UINT8   MASKAddr[4];                                         \/* CH395子网掩码 32bit*\/$/;"	m	struct:_CH395_SYS
+MacAddr	CH395.H	/^    UINT8   MacAddr[6];                                          \/* CH395MAC地址 48bit*\/$/;"	m	struct:_CH395_SYS
+MacAddr	CH395.H	/^    UINT8  MacAddr[6];                                          \/* socket目标地址 48bit*\/$/;"	m	struct:_SOCK_INF
+MackFilt	CH395.H	/^    UINT8   MackFilt;                                            \/* CH395 MAC过滤，默认为接收广播，接收本机MAC 8bit*\/$/;"	m	struct:_CH395_SYS
+MyBuffer	CH395.C	/^UINT8 xdata MyBuffer[512];                                           \/* 数据缓冲区 *\/$/;"	v
+PHYStat	CH395.H	/^    UINT8   PHYStat;                                             \/* CH395 PHY状态码 8bit*\/$/;"	m	struct:_CH395_SYS
+ProtoType	CH395.H	/^    UINT8  ProtoType;                                           \/* 协议类型 *\/$/;"	m	struct:_SOCK_INF
+RemLen	CH395.H	/^    UINT16 RemLen;                                              \/* 剩余长度 *\/$/;"	m	struct:_SOCK_INF
+RetranCount	CH395.H	/^    UINT32  RetranCount;                                         \/* 重试次数 默认为10次*\/$/;"	m	struct:_CH395_SYS
+RetranPeriod	CH395.H	/^    UINT32  RetranPeriod;                                        \/* 重试周期,单位MS,默认200MS *\/$/;"	m	struct:_CH395_SYS
+ScokStatus	CH395.H	/^    UINT8  ScokStatus;                                          \/* socket状态，参考scoket状态定义 *\/$/;"	m	struct:_SOCK_INF
+SendLen	CH395.H	/^    UINT16 SendLen;                                             \/* 发送数据长度 *\/$/;"	m	struct:_SOCK_INF
+SockInf	CH395.C	/^struct _SOCK_INF xdata SockInf;                                      \/* 保存Socket信息 *\/$/;"	v	typeref:struct:xdata
+Socket0DesIP	CH395.C	/^const UINT8  Socket0DesIP[4] = {192,168,1,100};                      \/* Socket 0目的IP地址 *\/$/;"	v
+Socket0DesPort	CH395.C	/^const UINT16 Socket0DesPort = 1000;                                  \/* Socket 0目的端口 *\/$/;"	v
+Socket0SourPort	CH395.C	/^const UINT16 Socket0SourPort = 5000;                                 \/* Socket 0源端口 *\/$/;"	v
+SourPort	CH395.H	/^    UINT16 SourPort;                                            \/* 目的端口 *\/$/;"	m	struct:_SOCK_INF
+TCP_CLIENT_MODE	CH395.H	14;"	d
+TCP_SERVER_MODE	CH395.H	15;"	d
+TcpMode	CH395.H	/^    UINT8  TcpMode;                                             \/* TCP模式 *\/$/;"	m	struct:_SOCK_INF
+UnreachIPAddr	CH395.H	/^    UINT8   UnreachIPAddr[4];                                    \/* 不可到达IP *\/$/;"	m	struct:_CH395_SYS
+UnreachPort	CH395.H	/^    UINT16  UnreachPort;                                         \/* 不可到达端口 *\/$/;"	m	struct:_CH395_SYS
+_CH395_SYS	CH395.H	/^struct _CH395_SYS$/;"	s
+_SOCK_INF	CH395.H	/^struct _SOCK_INF$/;"	s
+__CH395_H__	CH395.H	11;"	d
+mInitSTDIO	CH395.C	/^void mInitSTDIO( void )$/;"	f
+mStopIfError	CH395.C	/^void mStopIfError(UINT8 iError)$/;"	f
+main	CH395.C	/^int main(void)$/;"	f
+pSend	CH395.H	/^    UINT8  *pSend;                                              \/* 发送指针 *\/                                               $/;"	m	struct:_SOCK_INF

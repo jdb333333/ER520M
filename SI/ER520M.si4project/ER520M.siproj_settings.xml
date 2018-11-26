@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectSettings
+	AppVer="4.00.0084"
+	AppVerMinReader="4.00.0034"
+	GlobalConfiguration="1"
+	GlobalWorkspace="0"
+	LocalsInDb="0"
+	IndexMembers="1"
+	IndexFragments="1"
+	UseMasterFileList="0"
+	SourceDir="..\"
+	BackupDir="%PROJECT_DATA_DIR%\Backup"
+	MasterFileList="%PROJECT_SOURCE_DIR%\%PROJECT_NAME%_filelist.txt"
+	IsImportProject="0"
+	>
+	<Imports>
+		<ImportedLibs/>
+	</Imports>
+	<ParseConditions>
+		<Defines>
+			<define id="ARTLEVEL1" value="0" />
+			<define id="ASC_MODE" value="0" />
+			<define id="ApplVarInSRAM" value="0" />
+			<define id="BARCUSTOMER" value="0" />
+			<define id="BOTTLE" value="1" />
+			<define id="CASE_ASCIIDISPLAY" value="0" />
+			<define id="CASE_EJFLASH" value="0" />
+			<define id="CASE_EJSD" value="0" />
+			<define id="CASE_EPOS" value="0" />
+			<define id="CASE_ER100" value="0" />
+			<define id="CASE_ER220" value="0" />
+			<define id="CASE_ER260" value="0" />
+			<define id="CASE_ER520U" value="1" />
+			<define id="CASE_ETHERNET" value="0" />
+			<define id="CASE_FORHANZI" value="0" />
+			<define id="CASE_GIADA3000" value="0" />
+			<define id="CASE_GPRS" value="0" />
+			<define id="CASE_INDIA" value="0" />
+			<define id="CASE_INDONESIA" value="0" />
+			<define id="CASE_INNERDOTPRN" value="1" />
+			<define id="CASE_MFRIC" value="1" />
+			<define id="CASE_PERU" value="0" />
+			<define id="CASE_QRCODE" value="0" />
+			<define id="CASE_SPANISH" value="0" />
+			<define id="CASE_USBDISK" value="0" />
+			<define id="CASE_VIETNAM" value="0" />
+			<define id="CHAR_6X8" value="0" />
+			<define id="DD_CHIPC" value="1" />
+			<define id="DD_ECRVIP" value="1" />
+			<define id="DD_LOCK" value="1" />
+			<define id="DEBUGBYPC" value="0" />
+			<define id="ENABLE16" value="1" />
+			<define id="EN_EXASCII" value="1" />
+			<define id="EXASCII" value="3" />
+			<define id="FISCAL" value="0" />
+			<define id="FLASH_AppRAM" value="0" />
+			<define id="FLASH_LOG_BLOCKFr" value="16" />
+			<define id="FLASH_LOG_BLOCKS" value="19" />
+			<define id="FLOW_IN_EXTRAM" value="0" />
+			<define id="FOR_CANADA" value="0" />
+			<define id="FX330" value="1" />
+			<define id="GET_VRTC_STATUS" value="2" />
+			<define id="GREEK" value="0" />
+			<define id="HOR_REPORT" value="1" />
+			<define id="ISP_NET" value="1" />
+			<define id="LCD10_DISP" value="0" />
+			<define id="LWIP_TCP" value="0" />
+			<define id="MA" value="1" />
+			<define id="NETVATVERSION" value="0" />
+			<define id="PCREMOTE" value="0" />
+			<define id="PC_EMUKEY" value="0" />
+			<define id="PLUCODE_X" value="1" />
+			<define id="PLUENQ" value="0" />
+			<define id="POWERCTRL" value="0" />
+			<define id="PRTLEN" value="42" />
+			<define id="PWR_BUT_WARNING2" value="32" />
+			<define id="SCREENLN" value="4" />
+			<define id="SCRSTATDBL" value="0" />
+			<define id="SKIP" value="0" />
+			<define id="STM32F10X_HD" value="1" />
+			<define id="STM32F10X_HD_USBCOMM" value="0" />
+			<define id="S_PB" value="1" />
+			<define id="TEND_PREFIX" value="0" />
+			<define id="TR" value="0" />
+			<define id="USART_EXTEND_EN" value="1" />
+			<define id="USE_STDPERIPH_DRIVER" value="1" />
+			<define id="USE_X_ONLY" value="1" />
+			<define id="WISE158" value="1" />
+			<define id="salNumber" value="0" />
+		</Defines>
+	</ParseConditions>
+</ProjectSettings>

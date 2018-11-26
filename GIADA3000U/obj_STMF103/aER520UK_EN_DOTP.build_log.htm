@@ -1,0 +1,1902 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.18.0.0
+Copyright (C) 2016 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: jdb Administrator, jdb, LIC=UJWMM-X0BKA-UG07Q-NMRPK-X7RGW-GKR2M
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Standard  Version: 5.18
+Toolchain Path:  D:\keil5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 1 (build 61)
+Assembler:       Armasm.exe V5.06 update 1 (build 61)
+Linker/Locator:  ArmLink.exe V5.06 update 1 (build 61)
+Library Manager: ArmAr.exe V5.06 update 1 (build 61)
+Hex Converter:   FromElf.exe V5.06 update 1 (build 61)
+CPU DLL:         SARMCM3.DLL V5.18
+Dialog DLL:      DARMSTM.DLL V1.65.0.0
+Target DLL:      Segger\JL2CM3.dll V2.99.18.0
+Dialog DLL:      TARMSTM.DLL V1.64.0.0
+ 
+<h2>Project:</h2>
+E:\ER520M\GIADA3000U\GIADA3000U.uvprojx
+Project File Date:  08/13/2018
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 1 (build 61)', folder: 'D:\keil5\ARM\ARMCC\Bin'
+Build target 'ER520UK_EN_DOTP'
+compiling USBDiskApp.c...
+..\ER260_China\EOSCLCD\bios.h(528): warning:  #47-D: incompatible redefinition of macro "LCD10_SetFlag" (declared at line 29 of "..\STM32F103Driver\USER\inc\led_customer.h")
+  #define LCD10_SetFlag(a)  {}
+..\ER260_China\EOSCLCD\CHNDisp.h(115): warning:  #1295-D: Deprecated declaration RecallScreen - give arg types
+  extern void RecallScreen();
+..\ER260_China\EOSCLCD\MessageEN_P32_M.h(251): warning:  #47-D: incompatible redefinition of macro "EditN24" (declared at line 594 of "..\ER260_China\EOSCLCD\MessageEN_260_M.h")
+  #define EditN24                   " ARCHIVO    GRABAR    RAM"  // "?募???      ??录??      ?占浯?小"         
+..\ER260_China\EOSCLCD\MessageEN_P32_M.h(252): warning:  #47-D: incompatible redefinition of macro "EditN25" (declared at line 595 of "..\ER260_China\EOSCLCD\MessageEN_260_M.h")
+  #define EditN25                   " PUERTO     TIPO  PROTOCOLO  "  // "串????    通???啾?   通??协??"   
+..\ER260_China\EOSCLCD\MessageEN_P32_M.h(365): warning:  #47-D: incompatible redefinition of macro "Msg_MANAGEMENT" (declared at line 1079 of "..\ER260_China\EOSCLCD\MessageEN_260_M.h")
+  #define Msg_MANAGEMENT "LISTADO DE ADMINISTRADOR "
+..\ER260_China\EOSCLCD\USBDiskApp.c(3072): warning:  #14-D: extra text after expected end of preprocessing directive
+  #endif===
+..\ER260_China\EOSCLCD\USBDiskApp.c: 6 warnings, 0 errors
+compiling Chinaapp.c...
+..\ER260_China\EOSCLCD\bios.h(528): warning:  #47-D: incompatible redefinition of macro "LCD10_SetFlag" (declared at line 29 of "..\STM32F103Driver\USER\inc\led_customer.h")
+  #define LCD10_SetFlag(a)  {}
+..\ER260_China\EOSCLCD\CHNDisp.h(115): warning:  #1295-D: Deprecated declaration RecallScreen - give arg types
+  extern void RecallScreen();
+..\ER260_China\EOSCLCD\MessageEN_P32_M.h(251): warning:  #47-D: incompatible redefinition of macro "EditN24" (declared at line 594 of "..\ER260_China\EOSCLCD\MessageEN_260_M.h")
+  #define EditN24                   " ARCHIVO    GRABAR    RAM"  // "?募???      ??录??      ?占浯?小"         
+..\ER260_China\EOSCLCD\MessageEN_P32_M.h(252): warning:  #47-D: incompatible redefinition of macro "EditN25" (declared at line 595 of "..\ER260_China\EOSCLCD\MessageEN_260_M.h")
+  #define EditN25                   " PUERTO     TIPO  PROTOCOLO  "  // "串????    通???啾?   通??协??"   
+..\ER260_China\EOSCLCD\MessageEN_P32_M.h(365): warning:  #47-D: incompatible redefinition of macro "Msg_MANAGEMENT" (declared at line 1079 of "..\ER260_China\EOSCLCD\MessageEN_260_M.h")
+  #define Msg_MANAGEMENT "LISTADO DE ADMINISTRADOR "
+..\ER260_China\EOSCLCD\Chinaapp.c(331): warning:  #68-D: integer conversion resulted in a change of sign
+          -1,        /* Key Click 0 = disabled -1 = enabled) */
+..\ER260_China\EOSCLCD\Chinaapp.c: 6 warnings, 0 errors
+compiling interface.c...
+..\ER260_China\EOSCLCD\bios.h(528): warning:  #47-D: incompatible redefinition of macro "LCD10_SetFlag" (declared at line 29 of "..\STM32F103Driver\USER\inc\led_customer.h")
+  #define LCD10_SetFlag(a)  {}
+..\ER260_China\EOSCLCD\CHNDisp.h(115): warning:  #1295-D: Deprecated declaration RecallScreen - give arg types
+  extern void RecallScreen();
+..\ER260_China\EOSCLCD\MessageEN_P32_M.h(251): warning:  #47-D: incompatible redefinition of macro "EditN24" (declared at line 594 of "..\ER260_China\EOSCLCD\MessageEN_260_M.h")
+  #define EditN24                   " ARCHIVO    GRABAR    RAM"  // "?募???      ??录??      ?占浯?小"         
+..\ER260_China\EOSCLCD\MessageEN_P32_M.h(252): warning:  #47-D: incompatible redefinition of macro "EditN25" (declared at line 595 of "..\ER260_China\EOSCLCD\MessageEN_260_M.h")
+  #define EditN25                   " PUERTO     TIPO  PROTOCOLO  "  // "串????    通???啾?   通??协??"   
+..\ER260_China\EOSCLCD\MessageEN_P32_M.h(365): warning:  #47-D: incompatible redefinition of macro "Msg_MANAGEMENT" (declared at line 1079 of "..\ER260_China\EOSCLCD\MessageEN_260_M.h")
+  #define Msg_MANAGEMENT "LISTADO DE ADMINISTRADOR "
+..\STM32F103Driver\USER\inc\rtc.h(24): warning:  #1295-D: Deprecated declaration get_fattime - give arg types
+  DWORD get_fattime ();
+..\STM32F103Driver\USER\interface.c(141): warning:  #177-D: variable "i" was declared but never referenced
+      BYTE i, BCount;
+..\STM32F103Driver\USER\interface.c(141): warning:  #177-D: variable "BCount" was declared but never referenced
+      BYTE i, BCount;
+..\STM32F103Driver\USER\interface.c(142): warning:  #177-D: variable "sect" was declared but never referenced
+      DWORD sect;
+..\STM32F103Driver\USER\interface.c(143): warning:  #177-D: variable "aBuf" was declared but never referenced
+      BYTE aBuf[3];
+..\STM32F103Driver\USER\interface.c(332): warning:  #223-D: function "PutsO_Saved" declared implicitly
+          PutsO_Saved();
+..\STM32F103Driver\USER\interface.c(1093): warning:  #550-D: variable "PrescalerValue" was set but never used
+  	uint16_t PrescalerValue = 0;
+..\STM32F103Driver\USER\interface.c: 12 warnings, 0 errors
+compiling CHNMess.c...
+..\ER260_China\EOSCLCD\bios.h(528): warning:  #47-D: incompatible redefinition of macro "LCD10_SetFlag" (declared at line 29 of "..\STM32F103Driver\USER\inc\led_customer.h")
+  #define LCD10_SetFlag(a)  {}
+..\ER260_China\EOSCLCD\CHNDisp.h(115): warning:  #1295-D: Deprecated declaration RecallScreen - give arg types
+  extern void RecallScreen();
+..\ER260_China\EOSCLCD\MessageEN_P32_M.h(251): warning:  #47-D: incompatible redefinition of macro "EditN24" (declared at line 594 of "..\ER260_China\EOSCLCD\MessageEN_260_M.h")
+  #define EditN24                   " ARCHIVO    GRABAR    RAM"  // "?募???      ??录??      ?占浯?小"         
+..\ER260_China\EOSCLCD\MessageEN_P32_M.h(252): warning:  #47-D: incompatible redefinition of macro "EditN25" (declared at line 595 of "..\ER260_China\EOSCLCD\MessageEN_260_M.h")
+  #define EditN25                   " PUERTO     TIPO  PROTOCOLO  "  // "串????    通???啾?   通??协??"   
+..\ER260_China\EOSCLCD\MessageEN_P32_M.h(365): warning:  #47-D: incompatible redefinition of macro "Msg_MANAGEMENT" (declared at line 1079 of "..\ER260_China\EOSCLCD\MessageEN_260_M.h")
+  #define Msg_MANAGEMENT "LISTADO DE ADMINISTRADOR "
+..\ER260_China\EOSCLCD\CHNMess.c(788): warning:  #175-D: subscript out of range
+  XZTitle[5].Name,	        //XZTITLE
+..\ER260_China\EOSCLCD\CHNMess.c(789): warning:  #175-D: subscript out of range
+  XZTitle[6].Name,	        //XZTITLE
+..\ER260_China\EOSCLCD\CHNMess.c(790): warning:  #175-D: subscript out of range
+  XZTitle[7].Name,	        //XZTITLE
+..\ER260_China\EOSCLCD\CHNMess.c(791): warning:  #175-D: subscript out of range
+  XZTitle[8].Name,	        //XZTITLE
+..\ER260_China\EOSCLCD\CHNMess.c(2102): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\ER260_China\EOSCLCD\CHNMess.c: 10 warnings, 0 errors
+compiling Correc.c...
+..\ER260_China\EOSCLCD\bios.h(528): warning:  #47-D: incompatible redefinition of macro "LCD10_SetFlag" (declared at line 29 of "..\STM32F103Driver\USER\inc\led_customer.h")
+  #define LCD10_SetFlag(a)  {}
+..\ER260_China\EOSCLCD\CHNDisp.h(115): warning:  #1295-D: Deprecated declaration RecallScreen - give arg types
+  extern void RecallScreen();
+..\ER260_China\EOSCLCD\MessageEN_P32_M.h(251): warning:  #47-D: incompatible redefinition of macro "EditN24" (declared at line 594 of "..\ER260_China\EOSCLCD\MessageEN_260_M.h")
+  #define EditN24                   " ARCHIVO    GRABAR    RAM"  // "?募???      ??录??      ?占浯?小"         
+..\ER260_China\EOSCLCD\MessageEN_P32_M.h(252): warning:  #47-D: incompatible redefinition of macro "EditN25" (declared at line 595 of "..\ER260_China\EOSCLCD\MessageEN_260_M.h")
+  #define EditN25                   " PUERTO     TIPO  PROTOCOLO  "  // "串????    通???啾?   通??协??"   
+..\ER260_China\EOSCLCD\MessageEN_P32_M.h(365): warning:  #47-D: incompatible redefinition of macro "Msg_MANAGEMENT" (declared at line 1079 of "..\ER260_China\EOSCLCD\MessageEN_260_M.h")
+  #define Msg_MANAGEMENT "LISTADO DE ADMINISTRADOR "
+..\ER260_China\EOSCLCD\Correc.c(159): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+  	
+ispStrLF(ClearFlashChar(ApplVar.Correc.Name,SCREENWD));
+..\ER260_China\EOSCLCD\Correc.c(159): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+  	
+ispStrLF(ClearFlashChar(ApplVar.Correc.Name,SCREENWD));
+..\ER260_China\EOSCLCD\Correc.c(160): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+  	
+ispStrLF(FormatAmtStr(0, &ApplVar.SaleAmt, SCREENWD));
+..\ER260_China\EOSCLCD\Correc.c(161): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+  	PrintRJ(FormatAmtStr(ApplVar.Correc.Name, &ApplVar.SaleAmt, 
+RTLEN));
+..\ER260_China\EOSCLCD\Correc.c(272): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+  		if (!
+ESTBIT(ApplVar.Clerk.Options,BIT1) && !CheckPWD(Msg[
+ETMGPWD].str,ApplVar.AP.ModePwd.PwdMG))
+..\ER260_China\EOSCLCD\Correc.c(283): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+  			DispStrXY(ClearFlashChar(ApplVar.Correc.Name,
+CREENWD),0,0);
+..\ER260_China\EOSCLCD\Correc.c(283): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+  			DispStrXY(ClearFlashChar(ApplVar.Correc.Name,
+CREENWD),0,0);
+..\ER260_China\EOSCLCD\Correc.c(284): warning:  #167-D: argument of type "const char *" is incompatible with parameter of type "const uint8_t *"
+  			DispStrXY(Msg[
+HURUQTYAMT].str,0,1);
+..\ER260_China\EOSCLCD\Correc.c(308): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+  		if (!
+ESTBIT(ApplVar.Clerk.Options,BIT3) && !CheckPWD(Msg[
+ETMGPWD].str,ApplVar.AP.ModePwd.PwdMG))
+..\ER260_China\EOSCLCD\Correc.c(324): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+  				DispStrXY(ClearFlashChar(ApplVar.Correc.Name,
+CREENWD),0,0);
+..\ER260_China\EOSCLCD\Correc.c(324): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+  				DispStrXY(ClearFlashChar(ApplVar.Correc.Name,
+CREENWD),0,0);
+..\ER260_China\EOSCLCD\Correc.c(336): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+  			DispStrXY(ClearFlashChar(ApplVar.Correc.Name,
+CREENWD),0,0);
+..\ER260_China\EOSCLCD\Correc.c(336): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+  			DispStrXY(ClearFlashChar(ApplVar.Correc.Name,
+CREENWD),0,0);
+..\ER260_China\EOSCLCD\Correc.c(337): warning:  #167-D: argument of type "const char *" is incompatible with parameter of type "const uint8_t *"
+  			DispStrXY(Msg[
+HURUQTYAMT].str,0,1);
+..\ER260_China\EOSCLCD\Correc.c(345): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+  		if (!
+ESTBIT(ApplVar.Clerk.Options,BIT2) && !CheckPWD(Msg[
+ETMGPWD].str,ApplVar.AP.ModePwd.PwdMG))
+..\ER260_China\EOSCLCD\Correc.c(353): warning:  #223-D: function "ProBuf2" declared implicitly
+  		ProBuf2(5); //jdb2018-04-11
+..\ER260_China\EOSCLCD\Correc.c: 22 warnings, 0 errors
+compiling Computer.c...
+..\ER260_China\EOSCLCD\bios.h(528): warning:  #47-D: incompatible redefinition of macro "LCD10_SetFlag" (declared at line 29 of "..\STM32F103Driver\USER\inc\led_customer.h")
+  #define LCD10_SetFlag(a)  {}
+..\ER260_China\EOSCLCD\CHNDisp.h(115): warning:  #1295-D: Deprecated declaration RecallScreen - give arg types
+  extern void RecallScreen();
+..\ER260_China\EOSCLCD\MessageEN_P32_M.h(251): warning:  #47-D: incompatible redefinition of macro "EditN24" (declared at line 594 of "..\ER260_China\EOSCLCD\MessageEN_260_M.h")
+  #define EditN24                   " ARCHIVO    GRABAR    RAM"  // "?募???      ??录??      ?占浯?小"         
+..\ER260_China\EOSCLCD\MessageEN_P32_M.h(252): warning:  #47-D: incompatible redefinition of macro "EditN25" (declared at line 595 of "..\ER260_China\EOSCLCD\MessageEN_260_M.h")
+  #define EditN25                   " PUERTO     TIPO  PROTOCOLO  "  // "串????    通???啾?   通??协??"   
+..\ER260_China\EOSCLCD\MessageEN_P32_M.h(365): warning:  #47-D: incompatible redefinition of macro "Msg_MANAGEMENT" (declared at line 1079 of "..\ER260_China\EOSCLCD\MessageEN_260_M.h")
+  #define Msg_MANAGEMENT "LISTADO DE ADMINISTRADOR "
+..\ER260_China\EOSCLCD\Computer.c(106): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+          SendString(p,length+1); // Send the data..
+..\ER260_China\EOSCLCD\Computer.c(70): warning:  #177-D: variable "retry" was declared but never referenced
+      BYTE bcc,retry,i,cpT;
+..\ER260_China\EOSCLCD\Computer.c(152): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+      return SendRecord(SysBuf, 7 + sizeof(BCD));
+..\ER260_China\EOSCLCD\Computer.c(226): warning:  #223-D: function "CH395SendData" declared implicitly
+      CH395SendData(1,buf,len);
+..\ER260_China\EOSCLCD\Computer.c(231): warning:  #223-D: function "mDelaymS" declared implicitly
+      mDelaymS(10);
+..\ER260_China\EOSCLCD\Computer.c(197): warning:  #177-D: variable "sock_int_socket" was declared but never referenced
+      unsigned char  sock_int_socket;
+..\ER260_China\EOSCLCD\Computer.c(198): warning:  #177-D: variable "i" was declared but never referenced
+      unsigned char  i;
+..\ER260_China\EOSCLCD\Computer.c(199): warning:  #177-D: variable "init_status" was declared but never referenced
+      unsigned short  init_status;
+..\ER260_China\EOSCLCD\Computer.c(304): warning:  #223-D: function "CH395CMDGetGlobIntStatus_ALL" declared implicitly
+  	init_status = CH395CMDGetGlobIntStatus_ALL();
+..\ER260_China\EOSCLCD\Computer.c(310): warning:  #223-D: function "CH395GetSocketInt" declared implicitly
+  		sock_int_socket = CH395GetSocketInt(0);
+..\ER260_China\EOSCLCD\Computer.c(314): warning:  #223-D: function "CH395GetRecvLength" declared implicitly
+  len = CH395GetRecvLength(0);
+..\ER260_China\EOSCLCD\Computer.c(317): warning:  #223-D: function "CH395GetRecvData" declared implicitly
+  CH395GetRecvData(0,len,udpbuf);                     /* ??取?? */
+..\ER260_China\EOSCLCD\Computer.c(325): warning:  #223-D: function "CH395CMDGetMACAddr" declared implicitly
+  		CH395CMDGetMACAddr(macaddr);
+..\ER260_China\EOSCLCD\Computer.c(335): warning:  #223-D: function "CH395SendData" declared implicitly
+  		CH395SendData(0,udpbuf,strlen(udpbuf));
+..\ER260_China\EOSCLCD\Computer.c(359): warning:  #223-D: function "CH395GetSocketInt" declared implicitly
+      sock_int_socket = CH395GetSocketInt(1);
+..\ER260_China\EOSCLCD\Computer.c(366): warning:  #223-D: function "mDelaymS" declared implicitly
+          mDelaymS(2); 
+..\ER260_China\EOSCLCD\Computer.c(369): warning:  #223-D: function "CH395OpenSocket" declared implicitly
+          i = CH395OpenSocket(1);
+..\ER260_China\EOSCLCD\Computer.c(371): warning:  #223-D: function "CH395TCPListen" declared implicitly
+          i = CH395TCPListen (1);                                 
+..\ER260_China\EOSCLCD\Computer.c(377): warning:  #223-D: function "mDelaymS" declared implicitly
+          mDelaymS(2); 
+..\ER260_China\EOSCLCD\Computer.c(380): warning:  #223-D: function "CH395OpenSocket" declared implicitly
+          i = CH395OpenSocket(1);
+..\ER260_China\EOSCLCD\Computer.c(382): warning:  #223-D: function "CH395TCPListen" declared implicitly
+          i = CH395TCPListen (1);                                 
+..\ER260_China\EOSCLCD\Computer.c(389): warning:  #223-D: function "CH395GetRecvLength" declared implicitly
+      len = CH395GetRecvLength(1);                          /* ??取当前缓???????莩ざ? */
+..\ER260_China\EOSCLCD\Computer.c(394): warning:  #223-D: function "CH395GetRecvData" declared implicitly
+      CH395GetRecvData(1,len,buf);                     /* ??取?? */
+..\ER260_China\EOSCLCD\Computer.c(395): warning:  #223-D: function "mDelaymS" declared implicitly
+      mDelaymS(10);
+..\ER260_China\EOSCLCD\Computer.c(300): warning:  #550-D: variable "i" was set but never used
+      unsigned char  i;
+..\ER260_China\EOSCLCD\Computer.c(620): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+          PCCounter = RFH(tmpbuf, 512);
+..\ER260_China\EOSCLCD\Computer.c(644): warning:  #1295-D: Deprecated declaration UpdateBIOS - give arg types
+  extern void UpdateBIOS();
+..\ER260_China\EOSCLCD\Computer.c(645): warning:  #1295-D: Deprecated declaration EnterBootLoader - give arg types
+  extern void EnterBootLoader();
+..\ER260_China\EOSCLCD\Computer.c(2007): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+      return  STH(PCBuffer,size+4);/* send end record */
+..\ER260_China\EOSCLCD\Computer.c(2039): warning:  #117-D: non-void function "TcpReadZport" should return a value
+                  return;
+..\ER260_China\EOSCLCD\Computer.c(2046): warning:  #117-D: non-void function "TcpReadZport" should return a value
+                  return;
+..\ER260_China\EOSCLCD\Computer.c(2557): warning:  #167-D: argument of type "const char *" is incompatible with parameter of type "const uint8_t *"
+                  
+ispSt1C(Msg[ZZXZTXING].str);
+..\ER260_China\EOSCLCD\Computer.c(2558): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+                  TcpSaveGraphic(type,hostString+3,psize-3);//ccr2014-03-25
+..\ER260_China\EOSCLCD\Computer.c(2638): warning:  #175-D: subscript out of range
+                          record = (char *)&ApplVar.AP.ReportList[6];
+..\ER260_China\EOSCLCD\Computer.c(2642): warning:  #175-D: subscript out of range
+                          record = (char *)&ApplVar.AP.ReportList[9];
+..\ER260_China\EOSCLCD\Computer.c(2646): warning:  #175-D: subscript out of range
+                          record = (char *)&ApplVar.AP.ReportList[12];
+..\ER260_China\EOSCLCD\Computer.c(2984): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+                      err_state = TcpRecordToHost(
+mdUPDATE,type,record,size);/* send record */
+..\ER260_China\EOSCLCD\Computer.c(3459): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+                          
+ispSt2(sBuffer);
+..\ER260_China\EOSCLCD\Computer.c(3461): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+                          err_state = TcpRecordToHost(
+mdUPDATE,type,record, size);//发?图?录??
+..\ER260_China\EOSCLCD\Computer.c(3509): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+                      return TcpRecordToHost(
+mdFLOWDATA,type,sBuffer, 3);//发?图?录??
+..\ER260_China\EOSCLCD\Computer.c(3512): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+                  size = Read_Flow(sBuffer);
+..\ER260_China\EOSCLCD\Computer.c(3560): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+                      err_state = TcpRecordToHost(
+mdFLOWDATA,type,sBuffer, size);//发?图?录??
+..\ER260_China\EOSCLCD\Computer.c(3618): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+  			TcpRecordToHost('P',type,sBuffer, size);
+..\ER260_China\EOSCLCD\Computer.c(3631): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+  				TcpRecordToHost('R',type,sBuffer, size); //jdb2018-06-20 ??印前发??????
+..\ER260_China\EOSCLCD\Computer.c(3643): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+  				TcpRecordToHost('R',type,sBuffer, size);
+..\ER260_China\EOSCLCD\Computer.c(3735): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+                          count = TcpPluReadZport(sBuffer + size);
+..\ER260_China\EOSCLCD\Computer.c(3792): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+                                  size += TcpReadZport(sBuffer + size);
+..\ER260_China\EOSCLCD\Computer.c(3801): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+                                  size += TcpReadZport(sBuffer + size);
+..\ER260_China\EOSCLCD\Computer.c(3808): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+                              size += TcpReadZport(sBuffer + size);
+..\ER260_China\EOSCLCD\Computer.c(3850): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+                              size += TcpReadZport(sBuffer + size);
+..\ER260_China\EOSCLCD\Computer.c(3894): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+                                  size += TcpReadZport(sBuffer + size);
+..\ER260_China\EOSCLCD\Computer.c(3900): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+                              size += TcpReadZport(sBuffer + size);
+..\ER260_China\EOSCLCD\Computer.c(3945): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+                                  size += TcpReadZport(sBuffer + size);
+..\ER260_China\EOSCLCD\Computer.c(3951): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+                              size += TcpReadZport(sBuffer + size);
+..\ER260_China\EOSCLCD\Computer.c(3996): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+                                  size += TcpReadZport(sBuffer + size);
+..\ER260_China\EOSCLCD\Computer.c(4002): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+                              size += TcpReadZport(sBuffer + size);
+..\ER260_China\EOSCLCD\Computer.c(4047): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+                                  size += TcpReadZport(sBuffer + size);
+..\ER260_China\EOSCLCD\Computer.c(4053): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+                              size += TcpReadZport(sBuffer + size);
+..\ER260_China\EOSCLCD\Computer.c(4092): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+                              size += TcpReadZport(sBuffer + size);
+..\ER260_China\EOSCLCD\Computer.c(4105): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+                  TcpRecordToHost('Z',type,sBuffer, size);
+..\ER260_China\EOSCLCD\Computer.c(4531): warning:  #223-D: function "CheckUSB" declared implicitly
+          if (CheckUSB() || USB_COMM_Ready())
+..\ER260_China\EOSCLCD\Computer.c(4531): warning:  #223-D: function "USB_COMM_Ready" declared implicitly
+          if (CheckUSB() || USB_COMM_Ready())
+..\ER260_China\EOSCLCD\Computer.c(4532): warning:  #223-D: function "ReadUSB" declared implicitly
+              if (ReadUSB(&bcc) && bcc==SOH)
+..\ER260_China\EOSCLCD\Computer.c(4537): warning:  #223-D: function "SendUSB" declared implicitly
+          SendUSB(NAK);//Error from host
+..\ER260_China\EOSCLCD\Computer.c(4541): warning:  #223-D: function "SendUSB" declared implicitly
+      SendUSB(ACK);//Send ACK to the host
+..\ER260_China\EOSCLCD\Computer.c(4545): warning:  #223-D: function "CheckUSB" declared implicitly
+          if (CheckUSB() || USB_COMM_Ready())
+..\ER260_China\EOSCLCD\Computer.c(4545): warning:  #223-D: function "USB_COMM_Ready" declared implicitly
+          if (CheckUSB() || USB_COMM_Ready())
+..\ER260_China\EOSCLCD\Computer.c(4546): warning:  #223-D: function "ReadUSB" declared implicitly
+              if (ReadUSB(&length))
+..\ER260_China\EOSCLCD\Computer.c(4567): warning:  #223-D: function "CheckUSB" declared implicitly
+          while (!CheckUSB())
+..\ER260_China\EOSCLCD\Computer.c(4569): warning:  #223-D: function "USB_COMM_Ready" declared implicitly
+              USB_COMM_Ready();
+..\ER260_China\EOSCLCD\Computer.c(4571): warning:  #223-D: function "ReadUSB" declared implicitly
+          ReadUSB(PCBuffer+i);
+..\ER260_China\EOSCLCD\Computer.c(4527): warning:  #177-D: variable "j" was declared but never referenced
+      ULONG i,j;
+..\ER260_China\EOSCLCD\Computer.c(4601): warning:  #223-D: function "EmptyUSB" declared implicitly
+      EmptyUSB();	/* empty port */
+..\ER260_China\EOSCLCD\Computer.c(4604): warning:  #223-D: function "SendUSB" declared implicitly
+          SendUSB(SOH); // "发??SOH 建立通?牛?"
+..\ER260_China\EOSCLCD\Computer.c(4611): warning:  #223-D: function "CheckUSB" declared implicitly
+                  if (CheckUSB() || USB_COMM_Ready())
+..\ER260_China\EOSCLCD\Computer.c(4611): warning:  #223-D: function "USB_COMM_Ready" declared implicitly
+                  if (CheckUSB() || USB_COMM_Ready())
+..\ER260_China\EOSCLCD\Computer.c(4612): warning:  #223-D: function "ReadUSB" declared implicitly
+                      if (ReadUSB(&sACK) && (sACK==ACK || sACK==NAK))
+..\ER260_China\EOSCLCD\Computer.c(4629): warning:  #223-D: function "SendUSBString" declared implicitly
+          SendUSBString(p,length+1); // Send the data..
+..\ER260_China\EOSCLCD\Computer.c(4636): warning:  #223-D: function "CheckUSB" declared implicitly
+              if (CheckUSB() || USB_COMM_Ready())
+..\ER260_China\EOSCLCD\Computer.c(4636): warning:  #223-D: function "USB_COMM_Ready" declared implicitly
+              if (CheckUSB() || USB_COMM_Ready())
+..\ER260_China\EOSCLCD\Computer.c(4637): warning:  #223-D: function "ReadUSB" declared implicitly
+                  if (ReadUSB(&sACK) && (sACK==ACK || sACK==NAK))
+..\ER260_China\EOSCLCD\Computer.c: 87 warnings, 0 errors
+compiling Depart.c...
+..\ER260_China\EOSCLCD\bios.h(528): warning:  #47-D: incompatible redefinition of macro "LCD10_SetFlag" (declared at line 29 of "..\STM32F103Driver\USER\inc\led_customer.h")
+  #define LCD10_SetFlag(a)  {}
+..\ER260_China\EOSCLCD\CHNDisp.h(115): warning:  #1295-D: Deprecated declaration RecallScreen - give arg types
+  extern void RecallScreen();
+..\ER260_China\EOSCLCD\MessageEN_P32_M.h(251): warning:  #47-D: incompatible redefinition of macro "EditN24" (declared at line 594 of "..\ER260_China\EOSCLCD\MessageEN_260_M.h")
+  #define EditN24                   " ARCHIVO    GRABAR    RAM"  // "?募???      ??录??      ?占浯?小"         
+..\ER260_China\EOSCLCD\MessageEN_P32_M.h(252): warning:  #47-D: incompatible redefinition of macro "EditN25" (declared at line 595 of "..\ER260_China\EOSCLCD\MessageEN_260_M.h")
+  #define EditN25                   " PUERTO     TIPO  PROTOCOLO  "  // "串????    通???啾?   通??协??"   
+..\ER260_China\EOSCLCD\MessageEN_P32_M.h(365): warning:  #47-D: incompatible redefinition of macro "Msg_MANAGEMENT" (declared at line 1079 of "..\ER260_China\EOSCLCD\MessageEN_260_M.h")
+  #define Msg_MANAGEMENT "LISTADO DE ADMINISTRADOR "
+..\ER260_China\EOSCLCD\Depart.c(75): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *restrict"
+  		strcpy(SysBuf + 5, ApplVar.Modi.Name);
+..\ER260_China\EOSCLCD\Depart.c(95): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+  		    HEXtoASC(temp + 1, ApplVar.Plu.Random, ApplVar.AP.Plu.RandomSize);
+..\ER260_China\EOSCLCD\Depart.c(111): warning:  #120-D: return value type does not match the function type
+  		return ApplVar.Plu.Name;			/* on ApplVar.KP always PLU name when active */
+..\ER260_China\EOSCLCD\Depart.c(116): warning:  #120-D: return value type does not match the function type
+  	    return ApplVar.Dept.Name;
+..\ER260_China\EOSCLCD\Depart.c(118): warning:  #120-D: return value type does not match the function type
+  	    return ApplVar.Plu.Name;
+..\ER260_China\EOSCLCD\Depart.c(512): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+  			PrintStr(ApplVar.Correc.Name);
+..\ER260_China\EOSCLCD\Depart.c(525): warning:  #513-D: a value of type "uint8_t *" cannot be assigned to an entity of type "char *"
+  		str = ApplVar.Dept.Name;
+..\ER260_China\EOSCLCD\Depart.c(541): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+  				    
+ispStrLF(FormatQtyStr(str, &ApplVar.Price, SCREENWD));
+..\ER260_China\EOSCLCD\Depart.c(550): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+  					
+ispStrLF(FormatQtyStr(Msg[KCZJIA+ApplVar.FInv-1].str, &ApplVar.Qty, SCREENWD));
+..\ER260_China\EOSCLCD\Depart.c(551): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+  					
+ispStrLF(FormatQtyStr(str, &ApplVar.PluInventory, SCREENWD));
+..\ER260_China\EOSCLCD\Depart.c(565): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+                  DispStrXY(DispAmtStr(0, &ApplVar.Price,
+CREENWD),0,1);
+..\ER260_China\EOSCLCD\Depart.c(567): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+                  DispStrXY(DispQtyStr(0, &ApplVar.PluInventory,
+CREENWD),0,1);
+..\ER260_China\EOSCLCD\Depart.c(596): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+  	    	DispStrXY(temp,
+CREENWD-i,ln1st+1);
+..\ER260_China\EOSCLCD\Depart.c(142): warning:  #177-D: variable "Val1" was declared but never referenced
+  	BCD Val1 =    {0,{0x10,0,0,0,0,0,0,0}};
+..\ER260_China\EOSCLCD\Depart.c(143): warning:  #177-D: variable "sVal1" was declared but never referenced
+  	BCD sVal1, sVal2, sVal3; //jdb2018-04-10
+..\ER260_China\EOSCLCD\Depart.c(143): warning:  #177-D: variable "sVal2" was declared but never referenced
+  	BCD sVal1, sVal2, sVal3; //jdb2018-04-10
+..\ER260_China\EOSCLCD\Depart.c(143): warning:  #177-D: variable "sVal3" was declared but never referenced
+  	BCD sVal1, sVal2, sVal3; //jdb2018-04-10
+..\ER260_China\EOSCLCD\Depart.c: 22 warnings, 0 errors
+compiling Discount.c...
+..\ER260_China\EOSCLCD\bios.h(528): warning:  #47-D: incompatible redefinition of macro "LCD10_SetFlag" (declared at line 29 of "..\STM32F103Driver\USER\inc\led_customer.h")
+  #define LCD10_SetFlag(a)  {}
+..\ER260_China\EOSCLCD\CHNDisp.h(115): warning:  #1295-D: Deprecated declaration RecallScreen - give arg types
+  extern void RecallScreen();
+..\ER260_China\EOSCLCD\MessageEN_P32_M.h(251): warning:  #47-D: incompatible redefinition of macro "EditN24" (declared at line 594 of "..\ER260_China\EOSCLCD\MessageEN_260_M.h")
+  #define EditN24                   " ARCHIVO    GRABAR    RAM"  // "?募???      ??录??      ?占浯?小"         
+..\ER260_China\EOSCLCD\MessageEN_P32_M.h(252): warning:  #47-D: incompatible redefinition of macro "EditN25" (declared at line 595 of "..\ER260_China\EOSCLCD\MessageEN_260_M.h")
+  #define EditN25                   " PUERTO     TIPO  PROTOCOLO  "  // "串????    通???啾?   通??协??"   
+..\ER260_China\EOSCLCD\MessageEN_P32_M.h(365): warning:  #47-D: incompatible redefinition of macro "Msg_MANAGEMENT" (declared at line 1079 of "..\ER260_China\EOSCLCD\MessageEN_260_M.h")
+  #define Msg_MANAGEMENT "LISTADO DE ADMINISTRADOR "
+..\ER260_China\EOSCLCD\Discount.c(618): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+  		if ((!
+ESTBIT(ApplVar.Clerk.Options,BIT6) && 
+ESTBIT(ApplVar.Disc.Options, BIT2) && !CheckPWD(Msg[
+ETMGPWD].str,ApplVar.AP.ModePwd.PwdMG)) ||
+..\ER260_China\EOSCLCD\Discount.c(619): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+  			(!
+ESTBIT(ApplVar.Clerk.Options,BIT4) && !
+ESTBIT(ApplVar.Disc.Options, BIT3) && !CheckPWD(Msg[
+ETMGPWD].str,ApplVar.AP.ModePwd.PwdMG)) ||
+..\ER260_China\EOSCLCD\Discount.c(620): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+  			(!
+ESTBIT(ApplVar.Clerk.Options,BIT5) && 
+ESTBIT(ApplVar.Disc.Options, BIT3) && !CheckPWD(Msg[
+ETMGPWD].str,ApplVar.AP.ModePwd.PwdMG)))
+..\ER260_China\EOSCLCD\Discount.c(859): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+          PrintStr(ApplVar.Correc.Name);
+..\ER260_China\EOSCLCD\Discount.c(897): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+  		i = strlen(ApplVar.Disc.Name);
+..\ER260_China\EOSCLCD\Discount.c(900): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *restrict"
+  		strncpy(ProgLineMes,ApplVar.Disc.Name,i);
+..\ER260_China\EOSCLCD\Discount.c(903): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+  	i = strlen(ApplVar.Disc.Name);
+..\ER260_China\EOSCLCD\Discount.c(906): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *restrict"
+  	strncpy(ProgLineMes,ApplVar.Disc.Name,i);
+..\ER260_China\EOSCLCD\Discount.c(909): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+      
+ispStrLF(FormatAmtStr(ProgLineMes,&ApplVar.Amt,SCREENWD));/*ccr20130425 ??示?劭劢鸲? */
+..\ER260_China\EOSCLCD\Discount.c(560): warning:  #550-D: variable "Val1" was set but never used
+  	BCD Val1, Val2;
+..\ER260_China\EOSCLCD\Discount.c(560): warning:  #550-D: variable "Val2" was set but never used
+  	BCD Val1, Val2;
+..\ER260_China\EOSCLCD\Discount.c: 16 warnings, 0 errors
+compiling ExtModules.c...
+..\ER260_China\EOSCLCD\bios.h(528): warning:  #47-D: incompatible redefinition of macro "LCD10_SetFlag" (declared at line 29 of "..\STM32F103Driver\USER\inc\led_customer.h")
+  #define LCD10_SetFlag(a)  {}
+..\ER260_China\EOSCLCD\CHNDisp.h(115): warning:  #1295-D: Deprecated declaration RecallScreen - give arg types
+  extern void RecallScreen();
+..\ER260_China\EOSCLCD\MessageEN_P32_M.h(251): warning:  #47-D: incompatible redefinition of macro "EditN24" (declared at line 594 of "..\ER260_China\EOSCLCD\MessageEN_260_M.h")
+  #define EditN24                   " ARCHIVO    GRABAR    RAM"  // "?募???      ??录??      ?占浯?小"         
+..\ER260_China\EOSCLCD\MessageEN_P32_M.h(252): warning:  #47-D: incompatible redefinition of macro "EditN25" (declared at line 595 of "..\ER260_China\EOSCLCD\MessageEN_260_M.h")
+  #define EditN25                   " PUERTO     TIPO  PROTOCOLO  "  // "串????    通???啾?   通??协??"   
+..\ER260_China\EOSCLCD\MessageEN_P32_M.h(365): warning:  #47-D: incompatible redefinition of macro "Msg_MANAGEMENT" (declared at line 1079 of "..\ER260_China\EOSCLCD\MessageEN_260_M.h")
+  #define Msg_MANAGEMENT "LISTADO DE ADMINISTRADOR "
+..\ER260_China\EOSCLCD\ExtModules.c(116): warning:  #940-D: missing return statement at end of non-void function "RFeed"
+  }
+..\ER260_China\EOSCLCD\ExtModules.c(121): warning:  #940-D: missing return statement at end of non-void function "JFeed"
+  }
+..\ER260_China\EOSCLCD\ExtModules.c(610): warning:  #111-D: statement is unreachable
+          break;
+..\ER260_China\EOSCLCD\ExtModules.c(615): warning:  #111-D: statement is unreachable
+          break;
+..\ER260_China\EOSCLCD\ExtModules.c(621): warning:  #111-D: statement is unreachable
+          break;
+..\ER260_China\EOSCLCD\ExtModules.c(745): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "BYTE *"
+          mDispStringXY(SysBuf,
+WD_X,pwdY);
+..\ER260_China\EOSCLCD\ExtModules.c(833): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "BYTE *"
+          mDispStringXY(SysBuf,mmL,pwdY+pwdLp);
+..\ER260_China\EOSCLCD\ExtModules.c(897): warning:  #940-D: missing return statement at end of non-void function "SetPassword"
+  }
+..\ER260_China\EOSCLCD\ExtModules.c(792): warning:  #177-D: variable "sLen" was declared but never referenced
+      short pwdY,sLen,kCode,sCounter,sCou1st,mmL,oldL,pwdLp;
+..\ER260_China\EOSCLCD\ExtModules.c(792): warning:  #177-D: variable "oldL" was declared but never referenced
+      short pwdY,sLen,kCode,sCounter,sCou1st,mmL,oldL,pwdLp;
+..\ER260_China\EOSCLCD\ExtModules.c(907): warning:  #167-D: argument of type "const char *" is incompatible with parameter of type "const uint8_t *"
+      
+ispSt0(Msg[XIAOJI].str);//??示小?? //RG-DISPLAY
+..\ER260_China\EOSCLCD\ExtModules.c(920): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+      DispStrXY(strTotal,subLen,
+TATELINE);//??示小??  //RG-DISPLAY
+..\ER260_China\EOSCLCD\ExtModules.c(935): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+      
+ispSt0C(sDisp);//ScreenFeed(1);
+..\ER260_China\EOSCLCD\ExtModules.c(970): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+  	DispStrXY(sDisp,x,y);
+..\ER260_China\EOSCLCD\ExtModules.c(979): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+  	DispStrXY(sDisp,x,y);
+..\ER260_China\EOSCLCD\ExtModules.c(990): warning:  #940-D: missing return statement at end of non-void function "InitPrinterChar"
+  }
+..\ER260_China\EOSCLCD\ExtModules.c(1093): warning:  #177-D: variable "tmp3" was declared but never referenced
+      BYTE tmp1,tmp2,tmp3,tmp,cfg;
+..\ER260_China\EOSCLCD\ExtModules.c(1154): warning:  #177-D: variable "tmp3" was declared but never referenced
+      BYTE tmp1,tmp2,tmp3,tmp,cfg;
+..\ER260_China\EOSCLCD\ExtModules.c(1291): warning:  #144-D: a value of type "char *" cannot be used to initialize an entity of type "uint8_t *"
+      
+YTE *q = to;
+..\ER260_China\EOSCLCD\ExtModules.c(1503): warning:  #42-D: operand types are incompatible ("uint8_t *" and "char *")
+          while (q!= to)
+..\ER260_China\EOSCLCD\ExtModules.c(1762): warning:  #144-D: a value of type "char *" cannot be used to initialize an entity of type "uint8_t *"
+      
+YTE      *too=to;
+..\ER260_China\EOSCLCD\ExtModules.c(1763): warning:  #144-D: a value of type "char *" cannot be used to initialize an entity of type "uint8_t *"
+      
+YTE      *from1=from;
+..\ER260_China\EOSCLCD\ExtModules.c(1792): warning:  #144-D: a value of type "char *" cannot be used to initialize an entity of type "uint8_t *"
+      
+YTE      *too=to;
+..\ER260_China\EOSCLCD\ExtModules.c(1793): warning:  #144-D: a value of type "char *" cannot be used to initialize an entity of type "uint8_t *"
+      
+YTE      *from1=from;
+..\ER260_China\EOSCLCD\ExtModules.c(2548): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *restrict"
+                              strcpy(ProgLineMes,ApplVar.Plu.Name);
+..\ER260_China\EOSCLCD\ExtModules.c(2560): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *restrict"
+                              strcpy(ProgLineMes,ApplVar.Dept.Name);
+..\ER260_China\EOSCLCD\ExtModules.c(2570): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *restrict"
+                              strcpy(ProgLineMes,ApplVar.Disc.Name);
+..\ER260_China\EOSCLCD\ExtModules.c(2587): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
+                              strcpy(
+crollBuf(items),FormatAmtStr(ProgLineMes, &sAmt, 
+CREENWD));
+..\ER260_China\EOSCLCD\ExtModules.c(2678): warning:  #177-D: variable "i" was declared but never referenced
+      int len,i;
+..\ER260_China\EOSCLCD\ExtModules.c(2826): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+          DispStrXY(EntryBuffer + 
+NTRYSIZE - 
+CREENWD - 1 + x,x,y);
+..\ER260_China\EOSCLCD\ExtModules.c(2854): warning:  #167-D: argument of type "const char *" is incompatible with parameter of type "const uint8_t *"
+              DispStrXY(Msg[
+AI].str ,
+CREENWD-3,y);
+..\ER260_China\EOSCLCD\ExtModules.c(2856): warning:  #167-D: argument of type "const char *" is incompatible with parameter of type "const uint8_t *"
+              DispStrXY(Msg[
+UAN].str ,
+CREENWD-3,y);
+..\ER260_China\EOSCLCD\ExtModules.c(2878): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *restrict"
+      	strcpy(ListRecord.Name,ApplVar.TXT.Header[ListRecord.Number]);
+..\ER260_China\EOSCLCD\ExtModules.c(2881): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *restrict"
+  		strcpy(ListRecord.Name,ApplVar.TXT.Header[ListRecord.Number]);
+..\ER260_China\EOSCLCD\ExtModules.c(2887): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *restrict"
+      	strcpy(ListRecord.Name,ApplVar.TXT.Trailer[ListRecord.Number]);
+..\ER260_China\EOSCLCD\ExtModules.c(2890): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *restrict"
+  		strcpy(ListRecord.Name,ApplVar.TXT.Trailer[ListRecord.Number]);//jdb2018-03-26
+..\ER260_China\EOSCLCD\ExtModules.c(2895): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *restrict"
+      strcpy(ListRecord.Name,ApplVar.TXT.SlipHeader[ListRecord.Number]);
+..\ER260_China\EOSCLCD\ExtModules.c(2939): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *restrict"
+      strcpy(ListRecord.Name,ApplVar.TXT.ReportType[ListRecord.Number]);
+..\ER260_China\EOSCLCD\ExtModules.c(2970): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+          if (!SetPassword(Msg[
+ETMGPWD].str,ApplVar.AP.ModePwd.PwdMG))
+..\ER260_China\EOSCLCD\ExtModules.c(3000): warning:  #167-D: argument of type "const char *" is incompatible with parameter of type "const uint8_t *"
+              
+ispSt1C(Msg[PSHMSHI].str);//RG-DISPLAY
+..\ER260_China\EOSCLCD\ExtModules.c(2988): warning:  #167-D: argument of type "const char *" is incompatible with parameter of type "const uint8_t *"
+              
+ispSt1C(Msg[DYJKAI].str);//RG-DISPLAY
+..\ER260_China\EOSCLCD\ExtModules.c(3032): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+                      
+JPrint(0,DispQtyStr(ApplVar.Plu.Name, &ApplVar.Plu.Inventory,PRTLEN));
+..\ER260_China\EOSCLCD\ExtModules.c(3104): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+  				memcpy(ListRecord.Name + 
+CREENWD - strlen(ApplVar.AP.SHOPNAME), ApplVar.AP.SHOPNAME, strlen(ApplVar.AP.SHOPNAME));
+..\ER260_China\EOSCLCD\ExtModules.c(3104): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+  				memcpy(ListRecord.Name + 
+CREENWD - strlen(ApplVar.AP.SHOPNAME), ApplVar.AP.SHOPNAME, strlen(ApplVar.AP.SHOPNAME));
+..\ER260_China\EOSCLCD\ExtModules.c(3070): warning:  #177-D: variable "updownkey" was declared but never referenced
+      BYTE updownkey;
+..\ER260_China\EOSCLCD\ExtModules.c(3285): warning:  #167-D: argument of type "const char *" is incompatible with parameter of type "const uint8_t *"
+          DispStrXY(Msg[
+NMA].str,0,0);
+..\ER260_China\EOSCLCD\ExtModules.c(3286): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+          DispStrXY(SysBuf,strlen(Msg[
+NMA].str),0);//   DisplayDecXY(ApplVar.NumberEntry,SCREENWD-5,0,5);
+..\ER260_China\EOSCLCD\ExtModules.c(3287): warning:  #167-D: argument of type "const char *" is incompatible with parameter of type "const uint8_t *"
+          DispStrXY(Msg[
+GNJIAN].str,0,1);
+..\ER260_China\EOSCLCD\ExtModules.c(3306): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+              DispStrXY(SysBuf,0,1);
+..\ER260_China\EOSCLCD\ExtModules.c(3307): warning:  #167-D: argument of type "const char *" is incompatible with parameter of type "const uint8_t *"
+              DispStrXY(Msg[
+CHBJI].str,0,
+CREENLN-2);
+..\ER260_China\EOSCLCD\ExtModules.c(3271): warning:  #177-D: variable "newKeyFunc" was declared but never referenced
+      WORD newKeyFunc;
+..\ER260_China\EOSCLCD\ExtModules.c(3576): warning:  #117-D: non-void function "InputWord" should return a value
+  					return;
+..\ER260_China\EOSCLCD\ExtModules.c(3600): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+          DispStrXY(EntryBuffer + 
+NTRYSIZE - 
+CREENWD - 1 + x,x,y);
+..\ER260_China\EOSCLCD\ExtModules.c: 59 warnings, 0 errors
+compiling Fiscal.c...
+..\ER260_China\EOSCLCD\bios.h(528): warning:  #47-D: incompatible redefinition of macro "LCD10_SetFlag" (declared at line 29 of "..\STM32F103Driver\USER\inc\led_customer.h")
+  #define LCD10_SetFlag(a)  {}
+..\ER260_China\EOSCLCD\CHNDisp.h(115): warning:  #1295-D: Deprecated declaration RecallScreen - give arg types
+  extern void RecallScreen();
+..\ER260_China\EOSCLCD\MessageEN_P32_M.h(251): warning:  #47-D: incompatible redefinition of macro "EditN24" (declared at line 594 of "..\ER260_China\EOSCLCD\MessageEN_260_M.h")
+  #define EditN24                   " ARCHIVO    GRABAR    RAM"  // "?募???      ??录??      ?占浯?小"         
+..\ER260_China\EOSCLCD\MessageEN_P32_M.h(252): warning:  #47-D: incompatible redefinition of macro "EditN25" (declared at line 595 of "..\ER260_China\EOSCLCD\MessageEN_260_M.h")
+  #define EditN25                   " PUERTO     TIPO  PROTOCOLO  "  // "串????    通???啾?   通??协??"   
+..\ER260_China\EOSCLCD\MessageEN_P32_M.h(365): warning:  #47-D: incompatible redefinition of macro "Msg_MANAGEMENT" (declared at line 1079 of "..\ER260_China\EOSCLCD\MessageEN_260_M.h")
+  #define Msg_MANAGEMENT "LISTADO DE ADMINISTRADOR "
+..\ER260_China\EOSCLCD\Fiscal.c(63): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+  		    HEXtoASC(to + 1, ApplVar.ReceiptNumber+
+ECNUM, l);
+..\ER260_China\EOSCLCD\Fiscal.c(71): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+  		    HEXtoASC(to + 1, ApplVar.ReceiptNumber, l);
+..\ER260_China\EOSCLCD\Fiscal.c: 7 warnings, 0 errors
+compiling Firmkey.c...
+..\ER260_China\EOSCLCD\bios.h(528): warning:  #47-D: incompatible redefinition of macro "LCD10_SetFlag" (declared at line 29 of "..\STM32F103Driver\USER\inc\led_customer.h")
+  #define LCD10_SetFlag(a)  {}
+..\ER260_China\EOSCLCD\CHNDisp.h(115): warning:  #1295-D: Deprecated declaration RecallScreen - give arg types
+  extern void RecallScreen();
+..\ER260_China\EOSCLCD\MessageEN_P32_M.h(251): warning:  #47-D: incompatible redefinition of macro "EditN24" (declared at line 594 of "..\ER260_China\EOSCLCD\MessageEN_260_M.h")
+  #define EditN24                   " ARCHIVO    GRABAR    RAM"  // "?募???      ??录??      ?占浯?小"         
+..\ER260_China\EOSCLCD\MessageEN_P32_M.h(252): warning:  #47-D: incompatible redefinition of macro "EditN25" (declared at line 595 of "..\ER260_China\EOSCLCD\MessageEN_260_M.h")
+  #define EditN25                   " PUERTO     TIPO  PROTOCOLO  "  // "串????    通???啾?   通??协??"   
+..\ER260_China\EOSCLCD\MessageEN_P32_M.h(365): warning:  #47-D: incompatible redefinition of macro "Msg_MANAGEMENT" (declared at line 1079 of "..\ER260_China\EOSCLCD\MessageEN_260_M.h")
+  #define Msg_MANAGEMENT "LISTADO DE ADMINISTRADOR "
+..\ER260_China\EOSCLCD\Firmkey.c(9): warning:  #1295-D: Deprecated declaration SuspendECR - give arg types
+  void SuspendECR();
+..\ER260_China\EOSCLCD\Firmkey.c(10): warning:  #1295-D: Deprecated declaration CheckMode - give arg types
+  
+YTE CheckMode();
+..\ER260_China\EOSCLCD\Firmkey.c(39): warning:  #177-D: variable "j" was declared but never referenced
+      int mIdx,sIdx,i,j;
+..\ER260_China\EOSCLCD\Firmkey.c(317): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+              DispStrXY(SysBuf,sRefresh,y);
+..\ER260_China\EOSCLCD\Firmkey.c(350): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+          DispStrXY(SysBuf,sRefresh,y);
+..\ER260_China\EOSCLCD\Firmkey.c(427): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+              
+ispSt2(EntryBuffer + ENTRYSIZE - INPUTWIDTH - 1);
+..\ER260_China\EOSCLCD\Firmkey.c(505): warning:  #167-D: argument of type "const char *" is incompatible with parameter of type "const uint8_t *"
+                  DispStrXY(Msg[
+CHBJI].str,0,
+CREENLN-2); //change by lqw.. not change wise158 already..
+..\ER260_China\EOSCLCD\Firmkey.c(512): warning:  #167-D: argument of type "const char *" is incompatible with parameter of type "const uint8_t *"
+                  DispStrXY(Msg[Appl_ProgType].str,0,0);
+..\ER260_China\EOSCLCD\Firmkey.c(513): warning:  #167-D: argument of type "const char *" is incompatible with parameter of type "const uint8_t *"
+                  DispStrXY(Msg[
+CHBJI].str,0,
+CREENLN-2);
+..\ER260_China\EOSCLCD\Firmkey.c(530): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+                      
+ispSt2(ProgLineMes);
+..\ER260_China\EOSCLCD\Firmkey.c(779): warning:  #223-D: function "Ethernet_Start" declared implicitly
+              Ethernet_Start(ApplVar.IP.IPAddress[0],ApplVar.IP.IPAddress[1],ApplVar.IP.IPAddress[2],ApplVar.IP.IPAddress[3]);
+..\ER260_China\EOSCLCD\Firmkey.c(456): warning:  #177-D: variable "RandomL" was declared but never referenced
+      short   RandomL;
+..\ER260_China\EOSCLCD\Firmkey.c(951): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+                  DispStrXY(ProgLineMes,Editor.DispX,0xff);
+..\ER260_China\EOSCLCD\Firmkey.c(1093): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+                              DispStrXY(EntryBuffer + 
+NTRYSIZE - Appl_EntryCounter - 1,
+CREENWD-14,1);//ccr2016-01-18
+..\ER260_China\EOSCLCD\Firmkey.c(1336): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+                      DispStrXY(ProgLineMes,Editor.DispX,0xff);//!!!!SETUPDISPX-SETINPUTWD
+..\ER260_China\EOSCLCD\Firmkey.c(1359): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+              
+ispSt0(ApplVar.ModeHead);//RG-DISPLAY
+..\ER260_China\EOSCLCD\Firmkey.c(1373): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+              
+ispSt0(ApplVar.ModeHead);//RG-DISPLAY
+..\ER260_China\EOSCLCD\Firmkey.c(1398): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+                  
+ispSt0(ApplVar.ModeHead);
+..\ER260_China\EOSCLCD\Firmkey.c(1478): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+                  DispStrXY(ProgLineMes,Editor.DispX,0xff);//!!!!SETUPDISPX-SETINPUTWD
+..\ER260_China\EOSCLCD\Firmkey.c(847): warning:  #177-D: variable "sType" was declared but never referenced
+      BYTE    keyno,sType;;
+..\ER260_China\EOSCLCD\Firmkey.c(1510): warning:  #513-D: a value of type "uint8_t *" cannot be assigned to an entity of type "char *"
+          sMode = ApplVar.AP.ModePwd.PwdX;
+..\ER260_China\EOSCLCD\Firmkey.c(1513): warning:  #513-D: a value of type "uint8_t *" cannot be assigned to an entity of type "char *"
+          sMode = ApplVar.AP.ModePwd.PwdZ;
+..\ER260_China\EOSCLCD\Firmkey.c(1516): warning:  #513-D: a value of type "uint8_t *" cannot be assigned to an entity of type "char *"
+          sMode = ApplVar.AP.ModePwd.PwdSET;
+..\ER260_China\EOSCLCD\Firmkey.c(1519): warning:  #513-D: a value of type "uint8_t *" cannot be assigned to an entity of type "char *"
+          sMode = ApplVar.AP.ModePwd.PwdMG;
+..\ER260_China\EOSCLCD\Firmkey.c(1663): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+                          DispStrXY(SysBuf,0,0);
+..\ER260_China\EOSCLCD\Firmkey.c(1697): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+          
+ispSt0(ApplVar.ModeHead);//RG-DISPLAY
+..\ER260_China\EOSCLCD\Firmkey.c(1773): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+              
+ispSt2(SysBuf);//RG-DISPLAY
+..\ER260_China\EOSCLCD\Firmkey.c(1804): warning:  #167-D: argument of type "const char *" is incompatible with parameter of type "const uint8_t *"
+                  
+ispSt1C(Msg[DYJGUAN].str);//RG-DISPLAY
+..\ER260_China\EOSCLCD\Firmkey.c(1813): warning:  #167-D: argument of type "const char *" is incompatible with parameter of type "const uint8_t *"
+                  
+ispSt1C(Msg[DYJKAI].str);//RG-DISPLAY
+..\ER260_China\EOSCLCD\Firmkey.c(1861): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+                  DispStrXY(SysBuf,5,0);
+..\ER260_China\EOSCLCD\Firmkey.c(1865): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+                  DispStrXY(SysBuf,17,0);
+..\ER260_China\EOSCLCD\Firmkey.c(1870): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+                  DispStrXY(SysBuf,5,1);
+..\ER260_China\EOSCLCD\Firmkey.c(1874): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+                  DispStrXY(SysBuf,17,1);
+..\ER260_China\EOSCLCD\Firmkey.c(1879): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+                  DispStrXY(SysBuf,5,2);
+..\ER260_China\EOSCLCD\Firmkey.c(1883): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+                  DispStrXY(SysBuf,17,2);
+..\ER260_China\EOSCLCD\Firmkey.c(1977): warning:  #111-D: statement is unreachable
+              ClearEntry(false);       //
+..\ER260_China\EOSCLCD\Firmkey.c(1984): warning:  #111-D: statement is unreachable
+          break;
+..\ER260_China\EOSCLCD\Firmkey.c: 43 warnings, 0 errors
+compiling Fixed.c...
+..\ER260_China\EOSCLCD\bios.h(528): warning:  #47-D: incompatible redefinition of macro "LCD10_SetFlag" (declared at line 29 of "..\STM32F103Driver\USER\inc\led_customer.h")
+  #define LCD10_SetFlag(a)  {}
+..\ER260_China\EOSCLCD\CHNDisp.h(115): warning:  #1295-D: Deprecated declaration RecallScreen - give arg types
+  extern void RecallScreen();
+..\ER260_China\EOSCLCD\MessageEN_P32_M.h(251): warning:  #47-D: incompatible redefinition of macro "EditN24" (declared at line 594 of "..\ER260_China\EOSCLCD\MessageEN_260_M.h")
+  #define EditN24                   " ARCHIVO    GRABAR    RAM"  // "?募???      ??录??      ?占浯?小"         
+..\ER260_China\EOSCLCD\MessageEN_P32_M.h(252): warning:  #47-D: incompatible redefinition of macro "EditN25" (declared at line 595 of "..\ER260_China\EOSCLCD\MessageEN_260_M.h")
+  #define EditN25                   " PUERTO     TIPO  PROTOCOLO  "  // "串????    通???啾?   通??协??"   
+..\ER260_China\EOSCLCD\MessageEN_P32_M.h(365): warning:  #47-D: incompatible redefinition of macro "Msg_MANAGEMENT" (declared at line 1079 of "..\ER260_China\EOSCLCD\MessageEN_260_M.h")
+  #define Msg_MANAGEMENT "LISTADO DE ADMINISTRADOR "
+..\ER260_China\EOSCLCD\Fixed.c(121): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+          
+ispSt0(ApplVar.ModeHead);//RG-DISPLAY
+..\ER260_China\EOSCLCD\Fixed.c(122): warning:  #167-D: argument of type "const char *" is incompatible with parameter of type "const uint8_t *"
+          DispStrXY(Msg[
+OUGUADAN].str,
+CREENWD-6,
+TATELINE);//??状态????示?泄业? //RG-DISPLAY
+..\ER260_China\EOSCLCD\Fixed.c(339): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+                  
+ispSt2(EntryBuffer + ENTRYSIZE - INPUTWIDTH - 1);
+..\ER260_China\EOSCLCD\Fixed.c(427): warning:  #167-D: argument of type "const char *" is incompatible with parameter of type "const uint8_t *"
+          DispStrXY(p,0,0xff);//ccr2017-03-17
+..\ER260_China\EOSCLCD\Fixed.c(503): warning:  #167-D: argument of type "const char *" is incompatible with parameter of type "const uint8_t *"
+                          
+ispSt1(Msg[GBDPJGE].str);  //RG-DISPLAY
+..\ER260_China\EOSCLCD\Fixed.c(508): warning:  #167-D: argument of type "const char *" is incompatible with parameter of type "const uint8_t *"
+                              DispStrXY(Msg[
+BPLUJGE].str,0,0);//ccr2016-01-18
+..\ER260_China\EOSCLCD\Fixed.c(520): warning:  #167-D: argument of type "const char *" is incompatible with parameter of type "const uint8_t *"
+                              
+ispSt1(Msg[ZJKCUN].str);//RG-DISPLAY
+..\ER260_China\EOSCLCD\Fixed.c(529): warning:  #167-D: argument of type "const char *" is incompatible with parameter of type "const uint8_t *"
+                              
+ispSt1(Msg[JSHKCUN].str);//RG-DISPLAY
+..\ER260_China\EOSCLCD\Fixed.c(537): warning:  #167-D: argument of type "const char *" is incompatible with parameter of type "const uint8_t *"
+                              DispStrXY(Msg[
+JIAKUCUN+ApplVar.FInv-1].str,0,0);//ccr2016-01-18
+..\ER260_China\EOSCLCD\Fixed.c(787): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+              
+ispSt2C(temp);//RG-DISPLAY
+..\ER260_China\EOSCLCD\Fixed.c(821): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+          PrintAmt(ApplVar.Tend.Name, &ApplVar.SubTotal);
+..\ER260_China\EOSCLCD\Fixed.c(276): warning:  #177-D: variable "sLp" was declared but never referenced
+      BYTE SaveRGNumber,saveCp, SaveSP,sLp;
+..\ER260_China\EOSCLCD\Fixed.c(278): warning:  #177-D: variable "lastEJ" was declared but never referenced
+      ULONG lastEJ;
+..\ER260_China\EOSCLCD\Fixed.c(1005): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+                          
+ispSt2(EntryBuffer+ENTRYSIZE-INPUTWIDTH-1);//RG-DISPLAY
+..\ER260_China\EOSCLCD\Fixed.c: 20 warnings, 0 errors
+compiling General.c...
+..\ER260_China\EOSCLCD\bios.h(528): warning:  #47-D: incompatible redefinition of macro "LCD10_SetFlag" (declared at line 29 of "..\STM32F103Driver\USER\inc\led_customer.h")
+  #define LCD10_SetFlag(a)  {}
+..\ER260_China\EOSCLCD\CHNDisp.h(115): warning:  #1295-D: Deprecated declaration RecallScreen - give arg types
+  extern void RecallScreen();
+..\ER260_China\EOSCLCD\MessageEN_P32_M.h(251): warning:  #47-D: incompatible redefinition of macro "EditN24" (declared at line 594 of "..\ER260_China\EOSCLCD\MessageEN_260_M.h")
+  #define EditN24                   " ARCHIVO    GRABAR    RAM"  // "?募???      ??录??      ?占浯?小"         
+..\ER260_China\EOSCLCD\MessageEN_P32_M.h(252): warning:  #47-D: incompatible redefinition of macro "EditN25" (declared at line 595 of "..\ER260_China\EOSCLCD\MessageEN_260_M.h")
+  #define EditN25                   " PUERTO     TIPO  PROTOCOLO  "  // "串????    通???啾?   通??协??"   
+..\ER260_China\EOSCLCD\MessageEN_P32_M.h(365): warning:  #47-D: incompatible redefinition of macro "Msg_MANAGEMENT" (declared at line 1079 of "..\ER260_China\EOSCLCD\MessageEN_260_M.h")
+  #define Msg_MANAGEMENT "LISTADO DE ADMINISTRADOR "
+..\ER260_China\EOSCLCD\General.c(316): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+  		    ReadRam(SysBuf, 24);     /* read Line */
+..\ER260_China\EOSCLCD\General.c(338): warning:  #68-D: integer conversion resulted in a change of sign
+          ApplVar.NumberEntry = 65535;//ccr2014-09-09
+..\ER260_China\EOSCLCD\General.c(346): warning:  #177-D: variable "Val1" was declared but never referenced
+  	BCD Val1;
+..\ER260_China\EOSCLCD\General.c(587): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+              
+ispSt2(EntryBuffer+ENTRYSIZE-INPUTWIDTH-1);//RG-DISPLAY
+..\ER260_China\EOSCLCD\General.c(688): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "BYTE *"
+                  mDispStringXY((char*)Msg[
+HUCUO].str,CenterForDisplay(
+CREENWD-2,strlen(Msg[
+HUCUO].str))+1,erY);
+..\ER260_China\EOSCLCD\General.c(691): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "BYTE *"
+                      mDispStringXY((char*)Msg[
+WXXI01+err-1].str,CenterForDisplay(
+CREENWD-2,strlen(Msg[
+WXXI01+err-1].str))+1,erY+1);
+..\ER260_China\EOSCLCD\General.c(699): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "BYTE *"
+                      mDispStringXY(dbuf,
+CREENWD/2-1,erY+1);
+..\ER260_China\EOSCLCD\General.c(623): warning:  #177-D: variable "erX" was declared but never referenced
+      short  erX,erY;
+..\ER260_China\EOSCLCD\General.c(723): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "BYTE *"
+      mDispStringXY((char*)Msg[
+HUCUO].str,CenterForDisplay(
+CREENWD-2,strlen(Msg[
+HUCUO].str))+1,erY);
+..\ER260_China\EOSCLCD\General.c(724): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "BYTE *"
+      mDispStringXY(msg,CenterForDisplay(
+CREENWD-2,strlen(msg))+1,erY+1);
+..\ER260_China\EOSCLCD\General.c(876): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+                  HEXtoASC(ProgLineMes+l, ApplVar.ReceiptNumber, 3);
+..\ER260_China\EOSCLCD\General.c(827): warning:  #177-D: variable "tmpbuf" was declared but never referenced
+  	char tmpbuf[32] = {0};
+..\ER260_China\EOSCLCD\General.c(922): warning:  #223-D: function "msDelay" declared implicitly
+  		
+elay(ASECOND/2);
+..\ER260_China\EOSCLCD\General.c(1074): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+          DispStrXY(DispAmtStr(Msg[
+INGFU].str, &ApplVar.SubTotal,
+CREENWD),0,
+TATELINE);//ccr2016-03-02
+..\ER260_China\EOSCLCD\General.c(981): warning:  #177-D: variable "sVal2" was declared but never referenced
+  	BCD sVal2, sVal3;//jdb2018-03-09
+..\ER260_China\EOSCLCD\General.c(981): warning:  #177-D: variable "sVal3" was declared but never referenced
+  	BCD sVal2, sVal3;//jdb2018-03-09
+..\ER260_China\EOSCLCD\General.c(1085): warning:  #550-D: variable "Val1" was set but never used
+  	BCD Val1, Val2, Val3;
+..\ER260_China\EOSCLCD\General.c(1085): warning:  #550-D: variable "Val2" was set but never used
+  	BCD Val1, Val2, Val3;
+..\ER260_China\EOSCLCD\General.c(1085): warning:  #550-D: variable "Val3" was set but never used
+  	BCD Val1, Val2, Val3;
+..\ER260_China\EOSCLCD\General.c(1427): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+     		
+ispSt2C(DispAmtStr(Msg[JINE].str, &ApplVar.Total.Amt,DISLEN));
+..\ER260_China\EOSCLCD\General.c(1506): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+  	
+ispSt1C(sFile);
+..\ER260_China\EOSCLCD\General.c: 26 warnings, 0 errors
+compiling Flowbill.c...
+..\ER260_China\EOSCLCD\bios.h(528): warning:  #47-D: incompatible redefinition of macro "LCD10_SetFlag" (declared at line 29 of "..\STM32F103Driver\USER\inc\led_customer.h")
+  #define LCD10_SetFlag(a)  {}
+..\ER260_China\EOSCLCD\CHNDisp.h(115): warning:  #1295-D: Deprecated declaration RecallScreen - give arg types
+  extern void RecallScreen();
+..\ER260_China\EOSCLCD\MessageEN_P32_M.h(251): warning:  #47-D: incompatible redefinition of macro "EditN24" (declared at line 594 of "..\ER260_China\EOSCLCD\MessageEN_260_M.h")
+  #define EditN24                   " ARCHIVO    GRABAR    RAM"  // "?募???      ??录??      ?占浯?小"         
+..\ER260_China\EOSCLCD\MessageEN_P32_M.h(252): warning:  #47-D: incompatible redefinition of macro "EditN25" (declared at line 595 of "..\ER260_China\EOSCLCD\MessageEN_260_M.h")
+  #define EditN25                   " PUERTO     TIPO  PROTOCOLO  "  // "串????    通???啾?   通??协??"   
+..\ER260_China\EOSCLCD\MessageEN_P32_M.h(365): warning:  #47-D: incompatible redefinition of macro "Msg_MANAGEMENT" (declared at line 1079 of "..\ER260_China\EOSCLCD\MessageEN_260_M.h")
+  #define Msg_MANAGEMENT "LISTADO DE ADMINISTRADOR "
+..\ER260_China\EOSCLCD\Flowbill.c(159): warning:  #167-D: argument of type "const char *" is incompatible with parameter of type "const uint8_t *"
+          
+ispSt2C(Msg[RZQMAN].str);//RG-DISPLAY
+..\ER260_China\EOSCLCD\Flowbill.c(343): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+          bFlashProgram((
+nLong)pTo,skip,pFrom);//??写???詈?一??剩?嗫占???
+..\ER260_China\EOSCLCD\Flowbill.c(349): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+      bFlashProgram((
+nLong)pTo,skip,pFrom);
+..\ER260_China\EOSCLCD\Flowbill.c(366): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+      ReadFrLogRam(Area,ApplVar.FlowHeader.ReadP,1);
+..\ER260_China\EOSCLCD\Flowbill.c(373): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+              ReadFrLogRam(Area,ApplVar.FlowHeader.ReadP+1,1);
+..\ER260_China\EOSCLCD\Flowbill.c(385): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+              ReadFrLogRam(Area,ApplVar.FlowHeader.ReadP+i,sLength);
+..\ER260_China\EOSCLCD\Flowbill.c(685): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+                  ULongtoASCL(ApplVar.FlowBuff.CDC_refreshic.Custname,ApplVar.IC.CardNo);
+..\ER260_China\EOSCLCD\Flowbill.c(692): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+              icBCD2EcrBCD(&sBCD,&ApplVar.IC.REC_VALATT[
+C_VAL],
+C_PRGVEN-
+C_VAL);
+..\ER260_China\EOSCLCD\Flowbill.c(694): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+              icBCD2EcrBCD(&sBCD,&ApplVar.IC.REC_VALATT[
+C_PUNTI],
+C_FORE-
+C_PUNTI);
+..\ER260_China\EOSCLCD\Flowbill.c(959): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+          PrintFlowQtyAmt(0,ApplVar.Dept.Name,&sAmt);
+..\ER260_China\EOSCLCD\Flowbill.c(963): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+          PrintFlowQtyAmt(&sQty,ApplVar.Dept.Name,&sAmt);
+..\ER260_China\EOSCLCD\Flowbill.c(980): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+          ApplVar.PluNumber = Bcd2Long((char *)&ApplVar.FlowBuff.CDC_art.ArtN,sizeof(ApplVar.FlowBuff.CDC_art.ArtN));
+..\ER260_China\EOSCLCD\Flowbill.c(1021): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+          PrintFlowQtyAmt(0,ApplVar.Plu.Name,&sAmt);
+..\ER260_China\EOSCLCD\Flowbill.c(1025): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+          PrintFlowQtyAmt(&sQty,ApplVar.Plu.Name,&sAmt);
+..\ER260_China\EOSCLCD\Flowbill.c(1082): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *restrict"
+          strcpy(ProgLineMes,ApplVar.Tax.Name);
+..\ER260_China\EOSCLCD\Flowbill.c(1089): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+      
+opyFrStr(ProgLineMes,ApplVar.Tax.Name);
+..\ER260_China\EOSCLCD\Flowbill.c(1139): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+      
+opyFrStr(sTmpBuf+8,ApplVar.Clerk.Name);
+..\ER260_China\EOSCLCD\Flowbill.c(1164): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+              PrintFlowQtyAmt(0,ApplVar.Tend.Name,&sAmt);
+..\ER260_China\EOSCLCD\Flowbill.c(1326): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *restrict"
+          strcpy(SysBuf+strlen(SysBuf),ApplVar.Clerk.Name);
+..\ER260_China\EOSCLCD\Flowbill.c(1350): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+      HEXtoASC(SysBuf+26,ApplVar.FlowBuff.CDC_regis.ReceiptNum,
+ECEIPTLEN);
+..\ER260_China\EOSCLCD\Flowbill.c(1392): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+      HEXtoASC(prnBuff+26,CDC_regis_cp.ReceiptNum,
+ECEIPTLEN);
+..\ER260_China\EOSCLCD\Flowbill.c(1431): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+      HEXtoASC(SysBuf+2,&ApplVar.FlowBuff.CDC_refreshic.FYear,1);SysBuf[4]='-';
+..\ER260_China\EOSCLCD\Flowbill.c(1432): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+      HEXtoASC(SysBuf+5,&ApplVar.FlowBuff.CDC_refreshic.FMonth,1);SysBuf[7]='-';
+..\ER260_China\EOSCLCD\Flowbill.c(1433): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+      HEXtoASC(SysBuf+8,&ApplVar.FlowBuff.CDC_refreshic.FDay,1);
+..\ER260_China\EOSCLCD\Flowbill.c(1435): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+      HEXtoASC(SysBuf+11,&ApplVar.FlowBuff.CDC_refreshic.FTime[0],1);SysBuf[13] = ':';
+..\ER260_China\EOSCLCD\Flowbill.c(1436): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+      HEXtoASC(SysBuf+14,&ApplVar.FlowBuff.CDC_refreshic.FTime[1],1);
+..\ER260_China\EOSCLCD\Flowbill.c(1686): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+                  sRecno = Bcd2Long((char *)&ApplVar.FlowBuff.CDC_regis.ReceiptNum,sizeof(ApplVar.FlowBuff.CDC_regis.ReceiptNum));
+..\ER260_China\EOSCLCD\Flowbill.c(1882): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+          DispStrXY((char*)cRECALLFLOW,0,0);
+..\ER260_China\EOSCLCD\Flowbill.c(1955): warning:  #167-D: argument of type "const char *" is incompatible with parameter of type "const uint8_t *"
+              DispStrXY(Msg[
+HJHAOF].str,0,0);
+..\ER260_China\EOSCLCD\Flowbill.c(1974): warning:  #167-D: argument of type "const char *" is incompatible with parameter of type "const uint8_t *"
+              DispStrXY(Msg[
+MHYHAO].str,0,0);
+..\ER260_China\EOSCLCD\Flowbill.c(1991): warning:  #167-D: argument of type "const char *" is incompatible with parameter of type "const uint8_t *"
+                  
+ispStrLF(Msg[MsgALLCASH].str);
+..\ER260_China\EOSCLCD\Flowbill.c(1997): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+                      
+ispStrLF(GetActiveItemStr());
+..\ER260_China\EOSCLCD\Flowbill.c(2010): warning:  #167-D: argument of type "const char *" is incompatible with parameter of type "const uint8_t *"
+                  
+ispStrLF(Msg[MsgALLDEPT].str);
+..\ER260_China\EOSCLCD\Flowbill.c(2016): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+                      
+ispStrLF(GetActiveItemStr());
+..\ER260_China\EOSCLCD\Flowbill.c(2029): warning:  #167-D: argument of type "const char *" is incompatible with parameter of type "const uint8_t *"
+                  
+ispStrLF(Msg[MsgALLPLU].str);
+..\ER260_China\EOSCLCD\Flowbill.c(2062): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+                      
+ispStrLF(GetActiveItemStr());
+..\ER260_China\EOSCLCD\Flowbill.c(2072): warning:  #167-D: argument of type "const char *" is incompatible with parameter of type "const uint8_t *"
+              
+ispStrLF(Msg[MsgPRNDISCOUNT].str);
+..\ER260_China\EOSCLCD\Flowbill.c(2077): warning:  #167-D: argument of type "const char *" is incompatible with parameter of type "const uint8_t *"
+              
+ispStrLF(Msg[MsgPRNRAPO].str);
+..\ER260_China\EOSCLCD\Flowbill.c(2081): warning:  #167-D: argument of type "const char *" is incompatible with parameter of type "const uint8_t *"
+              
+ispStrLF(Msg[MsgPRNCORRECT].str);
+..\ER260_China\EOSCLCD\Flowbill.c(2085): warning:  #167-D: argument of type "const char *" is incompatible with parameter of type "const uint8_t *"
+              
+ispStrLF(Msg[MsgPRNCANCEL].str);
+..\ER260_China\EOSCLCD\Flowbill.c(2089): warning:  #167-D: argument of type "const char *" is incompatible with parameter of type "const uint8_t *"
+              
+ispStrLF(Msg[MsgPRNNOSALE].str);
+..\ER260_China\EOSCLCD\Flowbill.c(2099): warning:  #167-D: argument of type "const char *" is incompatible with parameter of type "const uint8_t *"
+              DispStrXY(Msg[
+SHRQIF].str,0,0xff);
+..\ER260_China\EOSCLCD\Flowbill.c(2114): warning:  #167-D: argument of type "const char *" is incompatible with parameter of type "const uint8_t *"
+              DispStrXY(Msg[
+SHRQIF].str,0,0xff);
+..\ER260_China\EOSCLCD\Flowbill.c(2132): warning:  #111-D: statement is unreachable
+      return ;
+..\ER260_China\EOSCLCD\Flowbill.c(2175): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+              size = Read_Flow(SysBuf);//??取一????水
+..\ER260_China\EOSCLCD\Flowbill.c(2194): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+                          DispStrXY(SysBuf,0,2);//??示?逊???????目
+..\ER260_China\EOSCLCD\Flowbill.c(2198): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+                          DispStrXY(SysBuf+
+CREENWD-SysBuf[0],
+CREENWD-SysBuf[0],
+TATELINE);
+..\ER260_China\EOSCLCD\Flowbill.c(2235): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+      DispStrXY(SysBuf+
+CREENWD-SysBuf[0],
+CREENWD-SysBuf[0],
+TATELINE);
+..\ER260_China\EOSCLCD\Flowbill.c(2145): warning:  #177-D: variable "i" was declared but never referenced
+      short i,size;
+..\ER260_China\EOSCLCD\Flowbill.c: 56 warnings, 0 errors
+compiling Initappl.c...
+..\ER260_China\EOSCLCD\bios.h(528): warning:  #47-D: incompatible redefinition of macro "LCD10_SetFlag" (declared at line 29 of "..\STM32F103Driver\USER\inc\led_customer.h")
+  #define LCD10_SetFlag(a)  {}
+..\ER260_China\EOSCLCD\CHNDisp.h(115): warning:  #1295-D: Deprecated declaration RecallScreen - give arg types
+  extern void RecallScreen();
+..\ER260_China\EOSCLCD\MessageEN_P32_M.h(251): warning:  #47-D: incompatible redefinition of macro "EditN24" (declared at line 594 of "..\ER260_China\EOSCLCD\MessageEN_260_M.h")
+  #define EditN24                   " ARCHIVO    GRABAR    RAM"  // "?募???      ??录??      ?占浯?小"         
+..\ER260_China\EOSCLCD\MessageEN_P32_M.h(252): warning:  #47-D: incompatible redefinition of macro "EditN25" (declared at line 595 of "..\ER260_China\EOSCLCD\MessageEN_260_M.h")
+  #define EditN25                   " PUERTO     TIPO  PROTOCOLO  "  // "串????    通???啾?   通??协??"   
+..\ER260_China\EOSCLCD\MessageEN_P32_M.h(365): warning:  #47-D: incompatible redefinition of macro "Msg_MANAGEMENT" (declared at line 1079 of "..\ER260_China\EOSCLCD\MessageEN_260_M.h")
+  #define Msg_MANAGEMENT "LISTADO DE ADMINISTRADOR "
+..\ER260_China\EOSCLCD\Initappl.c(259): warning:  #167-D: argument of type "const uint8_t *" is incompatible with parameter of type "const char *"
+      i=strlen(Def.Plu.Name);
+..\ER260_China\EOSCLCD\Initappl.c(273): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+              j = WORDtoASCL(ApplVar.Plu.Name+i, ApplVar.PluNumber+1);
+..\ER260_China\EOSCLCD\Initappl.c(278): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+  		    WORDtoBCD(ApplVar.Plu.Random, ApplVar.PluNumber + 1);
+..\ER260_China\EOSCLCD\Initappl.c(286): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+  				WORDtoBCD(ApplVar.Plu.Price[j], 0);
+..\ER260_China\EOSCLCD\Initappl.c(293): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+  				WORDtoBCD(ApplVar.Plu.Cost, 0);
+..\ER260_China\EOSCLCD\Initappl.c(301): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+              WriteRam(SysBuf, ApplVar.AP.Plu.RecordSize-ApplVar.AP.Plu.TotalOffSet);
+..\ER260_China\EOSCLCD\Initappl.c(311): warning:  #167-D: argument of type "const uint8_t *" is incompatible with parameter of type "const char *"
+      i=strlen(Def.Dept.Name);
+..\ER260_China\EOSCLCD\Initappl.c(316): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+  		    WORDtoBCD(ApplVar.Dept.Random, ApplVar.DeptNumber + 1);
+..\ER260_China\EOSCLCD\Initappl.c(319): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+              j = WORDtoASCL(ApplVar.Dept.Name+i, ApplVar.DeptNumber+1);
+..\ER260_China\EOSCLCD\Initappl.c(326): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+  				WORDtoBCD(ApplVar.Dept.Price, 0);
+..\ER260_China\EOSCLCD\Initappl.c(336): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+              WriteRam(SysBuf, ApplVar.AP.Dept.RecordSize-ApplVar.AP.Dept.TotalOffSet);
+..\ER260_China\EOSCLCD\Initappl.c(348): warning:  #167-D: argument of type "const uint8_t *" is incompatible with parameter of type "const char *"
+      i=strlen(Def.Group.Name);
+..\ER260_China\EOSCLCD\Initappl.c(354): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+              j = WORDtoASCL(ApplVar.Group.Name+i, ApplVar.GroupNumber+1);
+..\ER260_China\EOSCLCD\Initappl.c(446): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+  				WORDtoBCD(ApplVar.PB.Random, ApplVar.PbNumber);
+..\ER260_China\EOSCLCD\Initappl.c(448): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+  				WORDtoASCL(&ApplVar.PB.Text[strlen(Msg[
+UOHAO].str)], ApplVar.PbNumber);
+..\ER260_China\EOSCLCD\Initappl.c(461): warning:  #167-D: argument of type "const uint8_t *" is incompatible with parameter of type "const char *"
+      i=strlen(Def.Clerk.Name);
+..\ER260_China\EOSCLCD\Initappl.c(466): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+              j = WORDtoASCL(ApplVar.Clerk.Name+i, ApplVar.ClerkNumber);
+..\ER260_China\EOSCLCD\Initappl.c(498): warning:  #167-D: argument of type "const uint8_t *" is incompatible with parameter of type "const char *"
+      i=strlen(Def.Modi.Name);
+..\ER260_China\EOSCLCD\Initappl.c(503): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+              j = WORDtoASCL(ApplVar.Modi.Name+i, ApplVar.ModiNumber+1);
+..\ER260_China\EOSCLCD\Initappl.c(516): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+          WORDtoASC(&ApplVar.OFFPrice.Name[9], ApplVar.OFFNumber + 1);
+..\ER260_China\EOSCLCD\Initappl.c(653): warning:  #940-D: missing return statement at end of non-void function "WriteGrandTotal"
+  }
+..\ER260_China\EOSCLCD\Initappl.c(823): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+          DispStrXY((char*)cCLEANALLECRVIP,0,
+CREENLN-1);
+..\ER260_China\EOSCLCD\Initappl.c(882): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+                  DispStrXY((char*)cMESSCONFIGERR,0,0);
+..\ER260_China\EOSCLCD\Initappl.c(885): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+              DispStrXY((char*)cMESSCLEANFILES,0,
+CREENLN-1);
+..\ER260_China\EOSCLCD\Initappl.c(910): warning:  #167-D: argument of type "const char *" is incompatible with parameter of type "const uint8_t *"
+              
+ispStrLF(Msg[EUTRONMSG].str);
+..\ER260_China\EOSCLCD\Initappl.c(914): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+              DispStrXY(SysBuf,0,2);
+..\ER260_China\EOSCLCD\Initappl.c(933): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+                  DispStrXY((char*)cMESSRAMOUT,0,
+CREENLN-1);
+..\ER260_China\EOSCLCD\Initappl.c(999): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+              DispStrXY((char*)cMESSDELPLU,0,0);
+..\ER260_China\EOSCLCD\Initappl.c(1001): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+              DispStrXY(SysBuf+5-i,0,1);
+..\ER260_China\EOSCLCD\Initappl.c(1004): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+              DispStrXY(SysBuf,0,2);
+..\ER260_China\EOSCLCD\Initappl.c(1014): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+              DispStrXY((char*)cMESSCLEANLOG,0,
+CREENLN-1);
+..\ER260_China\EOSCLCD\Initappl.c(1128): warning:  #167-D: argument of type "const char *" is incompatible with parameter of type "const uint8_t *"
+      
+ispSt0(Msg[SHOUKUAN].str);//RG-DISPLAY
+..\ER260_China\EOSCLCD\Initappl.c(1230): warning:  #167-D: argument of type "const char *" is incompatible with parameter of type "const uint8_t *"
+          DispStrXY(cBUTTONBATLOW,0,0);
+..\ER260_China\EOSCLCD\Initappl.c(766): warning:  #550-D: variable "sRePrint" was set but never used
+      BYTE    sRePrint=1;//?欠???要??印?鼗?前未??印?瓯系???
+..\ER260_China\EOSCLCD\Initappl.c(1309): warning:  #167-D: argument of type "const char *" is incompatible with parameter of type "const uint8_t *"
+          DispStrXY(Msg[
+IQIF].str,0,0);
+..\ER260_China\EOSCLCD\Initappl.c(1325): warning:  #167-D: argument of type "const char *" is incompatible with parameter of type "const uint8_t *"
+          DispStrXY(Msg[
+HIJIANF].str,0,2);
+..\ER260_China\EOSCLCD\Initappl.c(1299): warning:  #177-D: variable "i" was declared but never referenced
+      short   i,j;
+..\ER260_China\EOSCLCD\Initappl.c(1299): warning:  #177-D: variable "j" was declared but never referenced
+      short   i,j;
+..\ER260_China\EOSCLCD\Initappl.c: 43 warnings, 0 errors
+compiling Hardtest.c...
+..\ER260_China\EOSCLCD\bios.h(528): warning:  #47-D: incompatible redefinition of macro "LCD10_SetFlag" (declared at line 29 of "..\STM32F103Driver\USER\inc\led_customer.h")
+  #define LCD10_SetFlag(a)  {}
+..\ER260_China\EOSCLCD\CHNDisp.h(115): warning:  #1295-D: Deprecated declaration RecallScreen - give arg types
+  extern void RecallScreen();
+..\ER260_China\EOSCLCD\MessageEN_P32_M.h(251): warning:  #47-D: incompatible redefinition of macro "EditN24" (declared at line 594 of "..\ER260_China\EOSCLCD\MessageEN_260_M.h")
+  #define EditN24                   " ARCHIVO    GRABAR    RAM"  // "?募???      ??录??      ?占浯?小"         
+..\ER260_China\EOSCLCD\MessageEN_P32_M.h(252): warning:  #47-D: incompatible redefinition of macro "EditN25" (declared at line 595 of "..\ER260_China\EOSCLCD\MessageEN_260_M.h")
+  #define EditN25                   " PUERTO     TIPO  PROTOCOLO  "  // "串????    通???啾?   通??协??"   
+..\ER260_China\EOSCLCD\MessageEN_P32_M.h(365): warning:  #47-D: incompatible redefinition of macro "Msg_MANAGEMENT" (declared at line 1079 of "..\ER260_China\EOSCLCD\MessageEN_260_M.h")
+  #define Msg_MANAGEMENT "LISTADO DE ADMINISTRADOR "
+..\ER260_China\EOSCLCD\Hardtest.c(11): warning:  #1295-D: Deprecated declaration PrintConfInf - give arg types
+  void PrintConfInf();		   //lyq added 20040303
+..\ER260_China\EOSCLCD\Hardtest.c(98): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+  		
+ispStrLF(SysBuf);
+..\ER260_China\EOSCLCD\Hardtest.c(99): warning:  #223-D: function "msDelay" declared implicitly
+  		
+elay(ASECOND/100);
+..\ER260_China\EOSCLCD\Hardtest.c(92): warning:  #177-D: variable "i" was declared but never referenced
+  	short i,j;
+..\ER260_China\EOSCLCD\Hardtest.c(129): warning:  #223-D: function "msDelay" declared implicitly
+  			
+elay(ASECOND/10);
+..\ER260_China\EOSCLCD\Hardtest.c(167): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+      
+ispStrLF(SysBuf);
+..\ER260_China\EOSCLCD\Hardtest.c(233): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+      
+ispStrLF(SysBuf);
+..\ER260_China\EOSCLCD\Hardtest.c(347): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+  	
+ispStrLF(SysBuf);
+..\ER260_China\EOSCLCD\Hardtest.c(363): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+  	
+ispStrLF(SysBuf);
+..\ER260_China\EOSCLCD\Hardtest.c(322): warning:  #550-D: variable "i" was set but never used
+  	WORD i,j;
+..\ER260_China\EOSCLCD\Hardtest.c(404): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+  		
+ispStrLF(SysBuf);
+..\ER260_China\EOSCLCD\Hardtest.c(413): warning:  #223-D: function "msDelay" declared implicitly
+  	
+elay(ASECOND);
+..\ER260_China\EOSCLCD\Hardtest.c(418): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+          
+ispStrLF(SysBuf);
+..\ER260_China\EOSCLCD\Hardtest.c(467): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+  		
+ispStrLF(SysBuf);
+..\ER260_China\EOSCLCD\Hardtest.c(485): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+  	
+ispStrLF(SysBuf);
+..\ER260_China\EOSCLCD\Hardtest.c(494): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+  	
+ispStrLF(SysBuf);
+..\ER260_China\EOSCLCD\Hardtest.c(504): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+      
+ispStrLF(SysBuf);
+..\ER260_China\EOSCLCD\Hardtest.c(628): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+  					
+ispStrLF(SysBuf);
+..\ER260_China\EOSCLCD\Hardtest.c(645): warning:  #167-D: argument of type "const char *" is incompatible with parameter of type "const uint8_t *"
+      
+RESS_ANY_KEY(SCREENLN-2);
+..\ER260_China\EOSCLCD\Hardtest.c(700): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+  			RWRand(2, ApplVar.OldPlu, SysBuf);
+..\ER260_China\EOSCLCD\Hardtest.c(716): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+  					RWRand(0, ApplVar.NewPlu, SysBuf);         /* write back at correct position */
+..\ER260_China\EOSCLCD\Hardtest.c(735): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+  				
+ispSt2C(SysBuf+2);
+..\ER260_China\EOSCLCD\Hardtest.c(742): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+  				RWRand(0, ApplVar.NewPlu, SysBuf);         /* clear rest of file */
+..\ER260_China\EOSCLCD\Hardtest.c(763): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+  					RWRand(2, ApplVar.OldPlu, SysBuf);
+..\ER260_China\EOSCLCD\Hardtest.c(775): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+  					RWRand(0, ApplVar.NewPlu+SORT[ApplVar.errplu], SysBuf) ;
+..\ER260_China\EOSCLCD\Hardtest.c(996): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+          j = strlen(ApplVar.PortList[Number].Name);
+..\ER260_China\EOSCLCD\Hardtest.c: 31 warnings, 0 errors
+compiling Main.c...
+..\ER260_China\EOSCLCD\bios.h(528): warning:  #47-D: incompatible redefinition of macro "LCD10_SetFlag" (declared at line 29 of "..\STM32F103Driver\USER\inc\led_customer.h")
+  #define LCD10_SetFlag(a)  {}
+..\ER260_China\EOSCLCD\CHNDisp.h(115): warning:  #1295-D: Deprecated declaration RecallScreen - give arg types
+  extern void RecallScreen();
+..\ER260_China\EOSCLCD\MessageEN_P32_M.h(251): warning:  #47-D: incompatible redefinition of macro "EditN24" (declared at line 594 of "..\ER260_China\EOSCLCD\MessageEN_260_M.h")
+  #define EditN24                   " ARCHIVO    GRABAR    RAM"  // "?募???      ??录??      ?占浯?小"         
+..\ER260_China\EOSCLCD\MessageEN_P32_M.h(252): warning:  #47-D: incompatible redefinition of macro "EditN25" (declared at line 595 of "..\ER260_China\EOSCLCD\MessageEN_260_M.h")
+  #define EditN25                   " PUERTO     TIPO  PROTOCOLO  "  // "串????    通???啾?   通??协??"   
+..\ER260_China\EOSCLCD\MessageEN_P32_M.h(365): warning:  #47-D: incompatible redefinition of macro "Msg_MANAGEMENT" (declared at line 1079 of "..\ER260_China\EOSCLCD\MessageEN_260_M.h")
+  #define Msg_MANAGEMENT "LISTADO DE ADMINISTRADOR "
+..\ER260_China\EOSCLCD\MFRCard.h(50): warning:  #1295-D: Deprecated declaration ReadByteBySPI - give arg types
+  
+ORD ReadByteBySPI();
+..\ER260_China\EOSCLCD\MFRCard.h(57): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\ER260_China\EOSCLCD\Main.c(65): warning:  #951-D: return type of function "main" must be "int"
+  void main()
+..\ER260_China\EOSCLCD\Main.c(72): warning:  #223-D: function "InitMonitor" declared implicitly
+      InitMonitor(MONITOR_RS232);
+..\ER260_China\EOSCLCD\Main.c(79): warning:  #223-D: function "msDelay" declared implicitly
+      
+elay(5);//?诨????系绺?位???泻螅??砑?约3ms????时。??为???鞯舻纭?复位100ms?螅?位?藕???效时，系统???俅?????约1.5ms
+..\ER260_China\EOSCLCD\Main.c(92): warning:  #223-D: function "Ethernet_Start" declared implicitly
+  	Ethernet_Start(ApplVar.IP.IPAddress[0],ApplVar.IP.IPAddress[1],ApplVar.IP.IPAddress[2],ApplVar.IP.IPAddress[3]);//jdb2018-03-16
+..\ER260_China\EOSCLCD\Main.c(763): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+              
+ispSt0(StrForST0); //RG-DISPLAY
+..\ER260_China\EOSCLCD\Main.c(847): warning:  #513-D: a value of type "char *" cannot be assigned to an entity of type "uint8_t *"
+      Editor.EditBuff = EntryBuffer;
+..\ER260_China\EOSCLCD\Main.c(972): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+          SendExtPrinter(Cmd,Line,1);
+..\ER260_China\EOSCLCD\Main.c(991): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+              SendExtPrinter(Cmd,Line,0);
+..\ER260_China\EOSCLCD\Main.c: 15 warnings, 0 errors
+compiling Modifier.c...
+..\ER260_China\EOSCLCD\bios.h(528): warning:  #47-D: incompatible redefinition of macro "LCD10_SetFlag" (declared at line 29 of "..\STM32F103Driver\USER\inc\led_customer.h")
+  #define LCD10_SetFlag(a)  {}
+..\ER260_China\EOSCLCD\CHNDisp.h(115): warning:  #1295-D: Deprecated declaration RecallScreen - give arg types
+  extern void RecallScreen();
+..\ER260_China\EOSCLCD\MessageEN_P32_M.h(251): warning:  #47-D: incompatible redefinition of macro "EditN24" (declared at line 594 of "..\ER260_China\EOSCLCD\MessageEN_260_M.h")
+  #define EditN24                   " ARCHIVO    GRABAR    RAM"  // "?募???      ??录??      ?占浯?小"         
+..\ER260_China\EOSCLCD\MessageEN_P32_M.h(252): warning:  #47-D: incompatible redefinition of macro "EditN25" (declared at line 595 of "..\ER260_China\EOSCLCD\MessageEN_260_M.h")
+  #define EditN25                   " PUERTO     TIPO  PROTOCOLO  "  // "串????    通???啾?   通??协??"   
+..\ER260_China\EOSCLCD\MessageEN_P32_M.h(365): warning:  #47-D: incompatible redefinition of macro "Msg_MANAGEMENT" (declared at line 1079 of "..\ER260_China\EOSCLCD\MessageEN_260_M.h")
+  #define Msg_MANAGEMENT "LISTADO DE ADMINISTRADOR "
+..\ER260_China\EOSCLCD\Modifier.c(57): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+  		WORDtoBCD(ApplVar.Entry.Value, ApplVar.ModiNumber);
+..\ER260_China\EOSCLCD\Modifier.c(83): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *restrict"
+  		    strcpy(SysBuf + 2, ApplVar.Modi.Name);
+..\ER260_China\EOSCLCD\Modifier.c(87): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+      DispLFStr(ApplVar.Modi.Name);//ccr2016-01-26
+..\ER260_China\EOSCLCD\Modifier.c: 8 warnings, 0 errors
+compiling Menu.c...
+..\ER260_China\EOSCLCD\bios.h(528): warning:  #47-D: incompatible redefinition of macro "LCD10_SetFlag" (declared at line 29 of "..\STM32F103Driver\USER\inc\led_customer.h")
+  #define LCD10_SetFlag(a)  {}
+..\ER260_China\EOSCLCD\CHNDisp.h(115): warning:  #1295-D: Deprecated declaration RecallScreen - give arg types
+  extern void RecallScreen();
+..\ER260_China\EOSCLCD\MessageEN_P32_M.h(251): warning:  #47-D: incompatible redefinition of macro "EditN24" (declared at line 594 of "..\ER260_China\EOSCLCD\MessageEN_260_M.h")
+  #define EditN24                   " ARCHIVO    GRABAR    RAM"  // "?募???      ??录??      ?占浯?小"         
+..\ER260_China\EOSCLCD\MessageEN_P32_M.h(252): warning:  #47-D: incompatible redefinition of macro "EditN25" (declared at line 595 of "..\ER260_China\EOSCLCD\MessageEN_260_M.h")
+  #define EditN25                   " PUERTO     TIPO  PROTOCOLO  "  // "串????    通???啾?   通??协??"   
+..\ER260_China\EOSCLCD\MessageEN_P32_M.h(365): warning:  #47-D: incompatible redefinition of macro "Msg_MANAGEMENT" (declared at line 1079 of "..\ER260_China\EOSCLCD\MessageEN_260_M.h")
+  #define Msg_MANAGEMENT "LISTADO DE ADMINISTRADOR "
+..\ER260_China\EOSCLCD\Menu.c(351): warning:  #940-D: missing return statement at end of non-void function "CheckPassWord"
+  }
+..\ER260_China\EOSCLCD\Menu.c(354): warning:  #1295-D: Deprecated declaration ReadKP - give arg types
+  extern void ReadKP();
+..\ER260_China\EOSCLCD\Menu.c(355): warning:  #1295-D: Deprecated declaration ReadFromMsg - give arg types
+  void ReadFromMsg();
+..\ER260_China\EOSCLCD\Menu.c(633): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+          DispStrXY(decBuff,x,y);
+..\ER260_China\EOSCLCD\Menu.c(743): warning:  #767-D: conversion from pointer to smaller integer
+          recMAX=(
+ORD)ListDef[ListID].RecordMax+recFrom;
+..\ER260_China\EOSCLCD\Menu.c(812): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+                      DispStrXY(sStr,DispIndex(0,sLp,recList[sLp]+(1-recFrom)),sLp);
+..\ER260_China\EOSCLCD\Menu.c(836): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+                      DispStrXY(sStr,DispIndex(0,recCount,recList[recCount]+(1-recFrom)),recCount);
+..\ER260_China\EOSCLCD\Menu.c(856): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+                          DispStrXY(sStr,DispIndex(0,sLp,recList[sLp]+(1-recFrom)),sLp);
+..\ER260_China\EOSCLCD\Menu.c(1019): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+                          DispStrXY(sStr,DispIndex(0,recCurrent,recList[recCurrent]+(1-recFrom)),recCurrent);
+..\ER260_China\EOSCLCD\Menu.c(1027): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+                          DispStrXY(sStr,DispIndex(0,recCurrent,recList[recCurrent]+(1-recFrom)),recCurrent);
+..\ER260_China\EOSCLCD\Menu.c(1045): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+                          DispStrXY(sStr,DispIndex(0,recCurrent,recList[recCurrent]+(1-recFrom)),recCurrent);
+..\ER260_China\EOSCLCD\Menu.c(1053): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+                          DispStrXY(sStr,DispIndex(0,recCurrent,recList[recCurrent]+(1-recFrom)),recCurrent);
+..\ER260_China\EOSCLCD\Menu.c(1078): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+                      DispStrXY(EntryBuffer + 
+NTRYSIZE - 13 - 1 ,
+CREENWD-13,
+TATELINE);
+..\ER260_China\EOSCLCD\Menu.c(1189): warning:  #767-D: conversion from pointer to smaller integer
+          recMAX=(
+ORD)ListDef[sListIdx].RecordMax+recFrom;
+..\ER260_China\EOSCLCD\Menu.c(1297): warning:  #767-D: conversion from pointer to smaller integer
+              recMAX=(
+ORD)ListDef[ListID].RecordMax;
+..\ER260_China\EOSCLCD\Menu.c(1220): warning:  #177-D: variable "recCurrent" was declared but never referenced
+      WORD recCurrent;    //当前选?竦募?录??
+..\ER260_China\EOSCLCD\Menu.c(1223): warning:  #177-D: variable "recCount" was declared but never referenced
+      WORD recCount,recCountX;          //recList?械募?录??目
+..\ER260_China\EOSCLCD\Menu.c(1223): warning:  #177-D: variable "recCountX" was declared but never referenced
+      WORD recCount,recCountX;          //recList?械募?录??目
+..\ER260_China\EOSCLCD\Menu.c: 23 warnings, 0 errors
+compiling Plu.c...
+..\ER260_China\EOSCLCD\bios.h(528): warning:  #47-D: incompatible redefinition of macro "LCD10_SetFlag" (declared at line 29 of "..\STM32F103Driver\USER\inc\led_customer.h")
+  #define LCD10_SetFlag(a)  {}
+..\ER260_China\EOSCLCD\CHNDisp.h(115): warning:  #1295-D: Deprecated declaration RecallScreen - give arg types
+  extern void RecallScreen();
+..\ER260_China\EOSCLCD\MessageEN_P32_M.h(251): warning:  #47-D: incompatible redefinition of macro "EditN24" (declared at line 594 of "..\ER260_China\EOSCLCD\MessageEN_260_M.h")
+  #define EditN24                   " ARCHIVO    GRABAR    RAM"  // "?募???      ??录??      ?占浯?小"         
+..\ER260_China\EOSCLCD\MessageEN_P32_M.h(252): warning:  #47-D: incompatible redefinition of macro "EditN25" (declared at line 595 of "..\ER260_China\EOSCLCD\MessageEN_260_M.h")
+  #define EditN25                   " PUERTO     TIPO  PROTOCOLO  "  // "串????    通???啾?   通??协??"   
+..\ER260_China\EOSCLCD\MessageEN_P32_M.h(365): warning:  #47-D: incompatible redefinition of macro "Msg_MANAGEMENT" (declared at line 1079 of "..\ER260_China\EOSCLCD\MessageEN_260_M.h")
+  #define Msg_MANAGEMENT "LISTADO DE ADMINISTRADOR "
+..\ER260_China\EOSCLCD\Plu.c(69): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+              WriteRam(SysBuf, ApplVar.AP.Plu.RecordSize-begin);    /* clear new or last record */
+..\ER260_China\EOSCLCD\Plu.c(76): warning:  #177-D: variable "begin" was declared but never referenced
+      ULONG i,begin;
+..\ER260_China\EOSCLCD\Plu.c(320): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+              ReadRam(SysBuf, mcount);
+..\ER260_China\EOSCLCD\Plu.c(322): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+              WriteRam(SysBuf, mcount);
+..\ER260_China\EOSCLCD\Plu.c(344): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+              ReadRam(SysBuf, mcount);
+..\ER260_China\EOSCLCD\Plu.c(346): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+              WriteRam(SysBuf, mcount);
+..\ER260_China\EOSCLCD\Plu.c(354): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+              WriteRam(SysBuf, ApplVar.AP.Plu.RecordSize - ApplVar.AP.Plu.RandomSize);    /* clear new or last record */
+..\ER260_China\EOSCLCD\Plu.c(373): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+              
+ispStrLF(FormatQtyStr(ProgLineMes, &ApplVar.Entry, SCREENWD));
+..\ER260_China\EOSCLCD\Plu.c(270): warning:  #550-D: variable "i" was set but never used
+      BYTE i;
+..\ER260_China\EOSCLCD\Plu.c(498): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+                       i = strlen(ApplVar.Plu.Name);
+..\ER260_China\EOSCLCD\Plu.c(391): warning:  #177-D: variable "sSave" was declared but never referenced
+      BCD     sSave;
+..\ER260_China\EOSCLCD\Plu.c(660): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+              PrintAmt(ApplVar.OFFPrice.Name, &ApplVar.DiscAmt);
+..\ER260_China\EOSCLCD\Plu.c(706): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+          WORDtoBCD(temp.Value, ApplVar.Plu.Link);
+..\ER260_China\EOSCLCD\Plu.c(802): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+          DispStrXY(DispAmtStr(Msg[
+IAGE].str ,&sPrice,
+CREENWD),0,1);
+..\ER260_China\EOSCLCD\Plu.c(808): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+              DispStrXY(DispAmtStr(Msg[
+HENBEN].str, &sPrice,
+CREENWD),0,2);
+..\ER260_China\EOSCLCD\Plu.c(830): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+              DispStrXY(DispQtyStr(Msg[
+UCUN].str, &ApplVar.Entry,
+CREENWD),0,2);
+..\ER260_China\EOSCLCD\Plu.c(787): warning:  #177-D: variable "i" was declared but never referenced
+      short i;
+..\ER260_China\EOSCLCD\Plu.c(914): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+      
+ispSt0(ApplVar.ModeHead);//RG-DISPLAY
+..\ER260_China\EOSCLCD\Plu.c(966): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+              memcpy(ProgLineMes,ApplVar.Dept.Name,strlen(ApplVar.Dept.Name));
+..\ER260_China\EOSCLCD\Plu.c(967): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *restrict"
+              strcpy(ProgLineMes+14,ApplVar.Group.Name);
+..\ER260_China\EOSCLCD\Plu.c(1013): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+              
+JPrint(0,FormatQtyStr(ApplVar.Plu.Name,&ApplVar.Qty,PRTLEN));
+..\ER260_China\EOSCLCD\Plu.c(1018): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *restrict"
+              strcpy(ProgLineMes+4,ApplVar.Dept.Name);
+..\ER260_China\EOSCLCD\Plu.c(1047): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+      strcpy(ListRecord.Name,DispQtyStr(ApplVar.Plu.Name, &ApplVar.Plu.Inventory,
+CREENWD));
+..\ER260_China\EOSCLCD\Plu.c: 28 warnings, 0 errors
+compiling Print.c...
+..\ER260_China\EOSCLCD\bios.h(528): warning:  #47-D: incompatible redefinition of macro "LCD10_SetFlag" (declared at line 29 of "..\STM32F103Driver\USER\inc\led_customer.h")
+  #define LCD10_SetFlag(a)  {}
+..\ER260_China\EOSCLCD\CHNDisp.h(115): warning:  #1295-D: Deprecated declaration RecallScreen - give arg types
+  extern void RecallScreen();
+..\ER260_China\EOSCLCD\MessageEN_P32_M.h(251): warning:  #47-D: incompatible redefinition of macro "EditN24" (declared at line 594 of "..\ER260_China\EOSCLCD\MessageEN_260_M.h")
+  #define EditN24                   " ARCHIVO    GRABAR    RAM"  // "?募???      ??录??      ?占浯?小"         
+..\ER260_China\EOSCLCD\MessageEN_P32_M.h(252): warning:  #47-D: incompatible redefinition of macro "EditN25" (declared at line 595 of "..\ER260_China\EOSCLCD\MessageEN_260_M.h")
+  #define EditN25                   " PUERTO     TIPO  PROTOCOLO  "  // "串????    通???啾?   通??协??"   
+..\ER260_China\EOSCLCD\MessageEN_P32_M.h(365): warning:  #47-D: incompatible redefinition of macro "Msg_MANAGEMENT" (declared at line 1079 of "..\ER260_China\EOSCLCD\MessageEN_260_M.h")
+  #define Msg_MANAGEMENT "LISTADO DE ADMINISTRADOR "
+..\ER260_China\EOSCLCD\Print.c(482): warning:  #167-D: argument of type "const char *" is incompatible with parameter of type "const uint8_t *"
+                      
+ispStrLF(ClearFlashChar((char*)str,SCREENWD)); lnDisp++;
+..\ER260_China\EOSCLCD\Print.c(489): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+                  
+ispStrLF(FormatAmtStr(0,amt,SCREENWD));lnDisp++ ;
+..\ER260_China\EOSCLCD\Print.c(507): warning:  #167-D: argument of type "const char *" is incompatible with parameter of type "const uint8_t *"
+                          
+ispStrLF(ClearFlashChar((char*)str,SCREENWD)); lnDisp++;/* ??示?? */
+..\ER260_China\EOSCLCD\Print.c(520): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+                      
+ispStrLF(FormatQtyStr(Msg[SHULIANG].str,qty,SCREENWD)); lnDisp++;/* ??示??量*/
+..\ER260_China\EOSCLCD\Print.c(523): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+                          DispStrXY(FormatAmtStr(Msg[
+INE].str,amt,
+CREENWD),0,0xff);/* ??示?鸲詈蟛还龆???幕 */
+..\ER260_China\EOSCLCD\Print.c(525): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+                          
+ispStrLF(FormatAmtStr(Msg[JINE].str,amt,SCREENWD));/* ??示?鸲? */
+..\ER260_China\EOSCLCD\Print.c(562): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+                      
+ispStrLF(FormatAmtStr(str,amt,SCREENWD));/* ??示?鸲? */
+..\ER260_China\EOSCLCD\Print.c(573): warning:  #167-D: argument of type "const char *" is incompatible with parameter of type "const uint8_t *"
+              
+ispStrLF(ClearFlashChar(FormatQtyStr(str, qty, SCREENWD),SCREENWD));
+..\ER260_China\EOSCLCD\Print.c(595): warning:  #167-D: argument of type "const char *" is incompatible with parameter of type "const uint8_t *"
+                      
+ispStrLF(Msg[GHDYZHI].str); lnDisp++;
+..\ER260_China\EOSCLCD\Print.c(631): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+                          PrintSlip(ApplVar.TXT.SlipHeader[l]);
+..\ER260_China\EOSCLCD\Print.c(784): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+                  PrintStr_Center(ApplVar.TXT.Header[i],
+BLHIPRN & 
+IT3);
+..\ER260_China\EOSCLCD\Print.c(841): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+                  PrintStr_Center(ApplVar.TXT.Header[line],
+BLHIPRN & 
+IT3);
+..\ER260_China\EOSCLCD\Print.c(911): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+          i = strlen(ApplVar.Clerk.Name);
+..\ER260_China\EOSCLCD\Print.c(1126): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+          
+ispSt0(ApplVar.ModeHead);  //RG-DISPLAY
+..\ER260_China\EOSCLCD\Print.c(1128): warning:  #167-D: argument of type "const char *" is incompatible with parameter of type "const uint8_t *"
+          DispStrXY(Msg[
+OUGUADAN].str,
+CREENWD-6,
+TATELINE);//??状态????示?泄业? //RG-DISPLAY
+..\ER260_China\EOSCLCD\Print.c(872): warning:  #177-D: variable "saveprint" was declared but never referenced
+      BYTE saveprint;
+..\ER260_China\EOSCLCD\Print.c(875): warning:  #177-D: variable "pTimeDate" was declared but never referenced
+      struct TimeDate pTimeDate;
+..\ER260_China\EOSCLCD\Print.c(876): warning:  #177-D: variable "temp" was declared but never referenced
+  	BCD temp, temp1;//jdb2018-07-27 ????票??+1????
+..\ER260_China\EOSCLCD\Print.c(876): warning:  #177-D: variable "temp1" was declared but never referenced
+  	BCD temp, temp1;//jdb2018-07-27 ????票??+1????
+..\ER260_China\EOSCLCD\Print.c(1193): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+                          	PrintStr_Center(ApplVar.TXT.Trailer[i],
+BLHIPRN & 
+IT4);
+..\ER260_China\EOSCLCD\Print.c(1208): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+                          	PrintStr_Center(ApplVar.TXT.Trailer[i],
+BLHIPRN & 
+IT4);
+..\ER260_China\EOSCLCD\Print.c(1275): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+                  PrintStr_Center(ApplVar.TXT.Header[0],
+BLHIPRN & 
+IT3);
+..\ER260_China\EOSCLCD\Print.c(1291): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+                      PrintStr_Center(ApplVar.TXT.Header[i],
+BLHIPRN & 
+IT3);
+..\ER260_China\EOSCLCD\Print.c(1311): warning:  #223-D: function "msDelay" declared implicitly
+                  
+elay(CUTTER * 100);
+..\ER260_China\EOSCLCD\Print.c(1458): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+                                  PrintStr_Center(ApplVar.TXT.Header[j],
+BLHIPRN & 
+IT3);
+..\ER260_China\EOSCLCD\Print.c(1475): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+                                      PrintStr_Center(ApplVar.TXT.Header[j],
+BLHIPRN & 
+IT3);
+..\ER260_China\EOSCLCD\Print.c(1493): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+                      
+opyFrStr(ProgLineMes,ApplVar.Group.Name);
+..\ER260_China\EOSCLCD\Print.c(1499): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+                          HEXtoASC(ProgLineMes+
+RTLEN/2,ApplVar.PB.Random,7);
+..\ER260_China\EOSCLCD\Print.c(1511): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+                      PrintStr(ApplVar.Group.Name);
+..\ER260_China\EOSCLCD\Print.c(1526): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *restrict"
+                          strcpy(ProgLineMes+
+LLPRNPOS,ApplVar.Plu.Name);
+..\ER260_China\EOSCLCD\Print.c(1537): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *restrict"
+                          strcpy(ProgLineMes+
+LLPRNPOS,ApplVar.Dept.Name);
+..\ER260_China\EOSCLCD\Print.c(1566): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *restrict"
+                          strcpy(SysBuf + 
+LLPRNPOS, ApplVar.Modi.Name);
+..\ER260_China\EOSCLCD\Print.c(1610): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+                      PrintStr_Center(ApplVar.TXT.Trailer[i],
+BLHIPRN & 
+IT4);
+..\ER260_China\EOSCLCD\Print.c: 38 warnings, 0 errors
+compiling Report2.c...
+..\ER260_China\EOSCLCD\bios.h(528): warning:  #47-D: incompatible redefinition of macro "LCD10_SetFlag" (declared at line 29 of "..\STM32F103Driver\USER\inc\led_customer.h")
+  #define LCD10_SetFlag(a)  {}
+..\ER260_China\EOSCLCD\CHNDisp.h(115): warning:  #1295-D: Deprecated declaration RecallScreen - give arg types
+  extern void RecallScreen();
+..\ER260_China\EOSCLCD\MessageEN_P32_M.h(251): warning:  #47-D: incompatible redefinition of macro "EditN24" (declared at line 594 of "..\ER260_China\EOSCLCD\MessageEN_260_M.h")
+  #define EditN24                   " ARCHIVO    GRABAR    RAM"  // "?募???      ??录??      ?占浯?小"         
+..\ER260_China\EOSCLCD\MessageEN_P32_M.h(252): warning:  #47-D: incompatible redefinition of macro "EditN25" (declared at line 595 of "..\ER260_China\EOSCLCD\MessageEN_260_M.h")
+  #define EditN25                   " PUERTO     TIPO  PROTOCOLO  "  // "串????    通???啾?   通??协??"   
+..\ER260_China\EOSCLCD\MessageEN_P32_M.h(365): warning:  #47-D: incompatible redefinition of macro "Msg_MANAGEMENT" (declared at line 1079 of "..\ER260_China\EOSCLCD\MessageEN_260_M.h")
+  #define Msg_MANAGEMENT "LISTADO DE ADMINISTRADOR "
+..\ER260_China\EOSCLCD\Report2.c(83): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+      HEXtoASC(to, ((
+YTE *)&time) + 1, 1);
+..\ER260_China\EOSCLCD\Report2.c(85): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+      HEXtoASC(to + 3, (
+YTE *)&time, 1);
+..\ER260_China\EOSCLCD\Report2.c(106): warning:  #513-D: a value of type "uint8_t *" cannot be assigned to an entity of type "char *"
+              s = ApplVar.Clerk.Name;
+..\ER260_China\EOSCLCD\Report2.c(249): warning:  #167-D: argument of type "const char *" is incompatible with parameter of type "const uint8_t *"
+  			
+ispSt1C(Msg[CWXXI33].str); //hf 20060105 DispSt2C(Msg[CWXXI33].str);
+..\ER260_China\EOSCLCD\Report2.c(311): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+  		    
+ispSt2(SysBuf);
+..\ER260_China\EOSCLCD\Report2.c(332): warning:  #167-D: argument of type "const char *" is incompatible with parameter of type "const uint8_t *"
+      
+ispSt1(Msg[BBQQING].str);//hf 20060105 DispSt2(Msg[BBQQING].str);
+..\ER260_China\EOSCLCD\Report2.c: 11 warnings, 0 errors
+compiling Report.c...
+..\ER260_China\EOSCLCD\bios.h(528): warning:  #47-D: incompatible redefinition of macro "LCD10_SetFlag" (declared at line 29 of "..\STM32F103Driver\USER\inc\led_customer.h")
+  #define LCD10_SetFlag(a)  {}
+..\ER260_China\EOSCLCD\CHNDisp.h(115): warning:  #1295-D: Deprecated declaration RecallScreen - give arg types
+  extern void RecallScreen();
+..\ER260_China\EOSCLCD\MessageEN_P32_M.h(251): warning:  #47-D: incompatible redefinition of macro "EditN24" (declared at line 594 of "..\ER260_China\EOSCLCD\MessageEN_260_M.h")
+  #define EditN24                   " ARCHIVO    GRABAR    RAM"  // "?募???      ??录??      ?占浯?小"         
+..\ER260_China\EOSCLCD\MessageEN_P32_M.h(252): warning:  #47-D: incompatible redefinition of macro "EditN25" (declared at line 595 of "..\ER260_China\EOSCLCD\MessageEN_260_M.h")
+  #define EditN25                   " PUERTO     TIPO  PROTOCOLO  "  // "串????    通???啾?   通??协??"   
+..\ER260_China\EOSCLCD\MessageEN_P32_M.h(365): warning:  #47-D: incompatible redefinition of macro "Msg_MANAGEMENT" (declared at line 1079 of "..\ER260_China\EOSCLCD\MessageEN_260_M.h")
+  #define Msg_MANAGEMENT "LISTADO DE ADMINISTRADOR "
+..\ER260_China\EOSCLCD\Report.c(58): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+  		PrintStr(ApplVar.Group.Name);
+..\ER260_China\EOSCLCD\Report.c(76): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+  		    SendRecord(SysBuf, 7 + 7);     /* always max size 14 */
+..\ER260_China\EOSCLCD\Report.c(141): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+  		    SendRecord(SysBuf, 7 + 7);     /* always max size 14 */
+..\ER260_China\EOSCLCD\Report.c(129): warning:  #177-D: variable "temp" was declared but never referenced
+      char temp[10];
+..\ER260_China\EOSCLCD\Report.c(130): warning:  #177-D: variable "price" was declared but never referenced
+      BCD price;
+..\ER260_China\EOSCLCD\Report.c(254): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+  		PrintStr(ApplVar.Tend.Name);
+..\ER260_China\EOSCLCD\Report.c(276): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+  		PrintStr(ApplVar.PoRa.Name);
+..\ER260_China\EOSCLCD\Report.c(298): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+  		PrintStr(ApplVar.Curr.Name);
+..\ER260_China\EOSCLCD\Report.c(323): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+  		PrintStr(ApplVar.Draw.Name);
+..\ER260_China\EOSCLCD\Report.c(419): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+  		PrintStr(ApplVar.Disc.Name);
+..\ER260_China\EOSCLCD\Report.c(459): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+  		    	PrintStr(ApplVar.Tax.Name);
+..\ER260_China\EOSCLCD\Report.c(513): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+  		PrintStr(ApplVar.PbF.Name);
+..\ER260_China\EOSCLCD\Report.c(536): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+  		PrintStr(ApplVar.PB.Text);
+..\ER260_China\EOSCLCD\Report.c(755): warning:  #223-D: function "CheckPrinter" declared implicitly
+      	CheckPrinter(3);//jdb2018-06-20 ?却?印??应??
+..\ER260_China\EOSCLCD\Report.c(930): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+  				SendRecord(SysBuf, 7 + 24); /* always send max size */
+..\ER260_China\EOSCLCD\Report.c(1221): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+  				    SendRecord(SysBuf, 7 + 7);     /* always max size 14 */
+..\ER260_China\EOSCLCD\Report.c(1227): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+  				    SendRecord(SysBuf, 7 + 24);     /* always max size 24 */
+..\ER260_China\EOSCLCD\Report.c(1253): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+  				    WORDtoBCD(ApplVar.Entry.Value, ApplVar.PbNumber);
+..\ER260_China\EOSCLCD\Report.c(1256): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+  				    PrintStr(ApplVar.PB.Text);
+..\ER260_China\EOSCLCD\Report.c(1285): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+  			WriteRam(SysBuf, ApplVar.AP.Pb.BlockSize);
+..\ER260_China\EOSCLCD\Report.c(1523): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *restrict"
+  		    strcpy(SysBuf, ApplVar.TXT.ReportType[REPORTTYPE_MAX]);//ccr2016-04-11, sizeof(ApplVar.TXT.ReportType[0]));
+..\ER260_China\EOSCLCD\Report.c(1525): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *restrict"
+  		    strcpy(SysBuf, ApplVar.AP.ReportList[repnum].Name);//ccr2016-04-11, 16);
+..\ER260_China\EOSCLCD\Report.c(1757): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+              DispStrXY(DispAmtStr(Msg[
+INE].str, &ApplVar.Amt,
+CREENWD),0,temp++);
+..\ER260_China\EOSCLCD\Report.c(1761): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+              DispStrXY(DispAmtStr(Msg[
+ETDISC].str, &ApplVar.Total.Disc,
+CREENWD),0,temp++);
+..\ER260_China\EOSCLCD\Report.c(1762): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+              DispStrXY(DispAmtStr((char*)cMsgNET, &ApplVar.Total.Amt,
+CREENWD),0,temp++);
+..\ER260_China\EOSCLCD\Report.c(1704): warning:  #177-D: variable "skip" was declared but never referenced
+      WORD skip, total;
+..\ER260_China\EOSCLCD\Report.c(1704): warning:  #177-D: variable "total" was declared but never referenced
+      WORD skip, total;
+..\ER260_China\EOSCLCD\Report.c(1705): warning:  #177-D: variable "save" was declared but never referenced
+      UnLong save ;     /* unsigned long save; */
+..\ER260_China\EOSCLCD\Report.c: 33 warnings, 0 errors
+compiling Program.c...
+..\ER260_China\EOSCLCD\bios.h(528): warning:  #47-D: incompatible redefinition of macro "LCD10_SetFlag" (declared at line 29 of "..\STM32F103Driver\USER\inc\led_customer.h")
+  #define LCD10_SetFlag(a)  {}
+..\ER260_China\EOSCLCD\CHNDisp.h(115): warning:  #1295-D: Deprecated declaration RecallScreen - give arg types
+  extern void RecallScreen();
+..\ER260_China\EOSCLCD\MessageEN_P32_M.h(251): warning:  #47-D: incompatible redefinition of macro "EditN24" (declared at line 594 of "..\ER260_China\EOSCLCD\MessageEN_260_M.h")
+  #define EditN24                   " ARCHIVO    GRABAR    RAM"  // "?募???      ??录??      ?占浯?小"         
+..\ER260_China\EOSCLCD\MessageEN_P32_M.h(252): warning:  #47-D: incompatible redefinition of macro "EditN25" (declared at line 595 of "..\ER260_China\EOSCLCD\MessageEN_260_M.h")
+  #define EditN25                   " PUERTO     TIPO  PROTOCOLO  "  // "串????    通???啾?   通??协??"   
+..\ER260_China\EOSCLCD\MessageEN_P32_M.h(365): warning:  #47-D: incompatible redefinition of macro "Msg_MANAGEMENT" (declared at line 1079 of "..\ER260_China\EOSCLCD\MessageEN_260_M.h")
+  #define Msg_MANAGEMENT "LISTADO DE ADMINISTRADOR "
+..\ER260_China\EOSCLCD\Program.c(55): warning:  #167-D: argument of type "const char *" is incompatible with parameter of type "const uint8_t *"
+      DispStrXY(Msg[MsgIdx].str,0,0xff);
+..\ER260_China\EOSCLCD\Program.c(81): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+              StrToBCDValue(val, &EntryBuffer[
+NTRYSIZE - 2], BCDBytes);
+..\ER260_China\EOSCLCD\Program.c(91): warning:  #167-D: argument of type "const char *" is incompatible with parameter of type "const uint8_t *"
+      DispStrXY(Msg[MsgIdx].str,0,0xff);
+..\ER260_China\EOSCLCD\Program.c(154): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+              StrToBCDValue(val, &EntryBuffer[
+NTRYSIZE - 2], BCDBytes);
+..\ER260_China\EOSCLCD\Program.c(161): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+          DispStrXY((char*)Messg,0,0xff);
+..\ER260_China\EOSCLCD\Program.c(206): warning:  #167-D: argument of type "const char *" is incompatible with parameter of type "const uint8_t *"
+      DispStrXY(Msg[MsgIdx].str,0,0xff);
+..\ER260_China\EOSCLCD\Program.c(262): warning:  #167-D: argument of type "const char *" is incompatible with parameter of type "const uint8_t *"
+                  DispStrXY(Msg[MsgIdx].str,0,0xff);
+..\ER260_China\EOSCLCD\Program.c(277): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+              sP = strlen(val);
+..\ER260_China\EOSCLCD\Program.c(290): warning:  #167-D: argument of type "const char *" is incompatible with parameter of type "const uint8_t *"
+                  DispStrXY(Msg[MsgIdx].str,0,0xff);
+..\ER260_China\EOSCLCD\Program.c(297): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+                  DispStrXY(numbuf,mLen,0xff);
+..\ER260_China\EOSCLCD\Program.c(308): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+          SetEditPosition(mLen,
+ursY,sP,val);//ccr2016-01-19
+..\ER260_China\EOSCLCD\Program.c(422): warning:  #167-D: argument of type "const char *" is incompatible with parameter of type "const uint8_t *"
+          DispStrXY(Msg[MsgIdx].str,0,0xff);
+..\ER260_China\EOSCLCD\Program.c(465): warning:  #177-D: variable "i" was declared but never referenced
+      WORD i;
+..\ER260_China\EOSCLCD\Program.c(670): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+              CheckBitValue(
+HFDYINF,&ApplVar.Dept.Kp,1+(Appl_ProgLine-7) + 0x80,0);
+..\ER260_China\EOSCLCD\Program.c(681): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+          CheckBitValue(
+ZHLJGE,&ApplVar.Dept.Options,1+(Appl_ProgLine-16+1),0);
+..\ER260_China\EOSCLCD\Program.c(689): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+          CheckBitValue(
+YFGXIAN+Appl_ProgLine-17,&ApplVar.Dept.Options,1+(Appl_ProgLine-17+4),0);
+..\ER260_China\EOSCLCD\Program.c(694): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+          CheckBitValue(
+GDYIN,&ApplVar.Dept.Print,3,0);
+..\ER260_China\EOSCLCD\Program.c(784): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+          CheckBitValue(
+KQXIANGF+Appl_ProgLine-3,&ApplVar.Tend.Options,1+(Appl_ProgLine-3),0);
+..\ER260_China\EOSCLCD\Program.c(855): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+          CheckBitValue(
+KQXIANGP+Appl_ProgLine-3,&ApplVar.PoRa.Options,1+(Appl_ProgLine-3),0);
+..\ER260_China\EOSCLCD\Program.c(973): warning:  #167-D: argument of type "const char *" is incompatible with parameter of type "const uint8_t *"
+          DispStrXY(Msg[
+EIXING].str,0,0xff);
+..\ER260_China\EOSCLCD\Program.c(1002): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+          CheckBitValue(
+YZHKE+Appl_ProgLine- 7,&ApplVar.Disc.Options,1+(Appl_ProgLine- 7 + 5),0);
+..\ER260_China\EOSCLCD\Program.c(1059): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+          CheckBitValue(
+CHJZHLIN,&ApplVar.Curr.Options,1+(Appl_ProgLine- 4),0);
+..\ER260_China\EOSCLCD\Program.c(1152): warning:  #167-D: argument of type "const char *" is incompatible with parameter of type "const uint8_t *"
+          DispStrXY(Msg[
+EIXING].str,0,0xff);
+..\ER260_China\EOSCLCD\Program.c(1252): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+          CheckBitValue(
+YZZHI+Appl_ProgLine-4,&ApplVar.Tax.Options,1+(Appl_ProgLine-4),0);
+..\ER260_China\EOSCLCD\Program.c(1294): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+              GetBCDValue(
+IMAF,ApplVar.Clerk.Passwd,3,
+RUE);
+..\ER260_China\EOSCLCD\Program.c(1311): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+          CheckBitValue(
+XXZHI+Appl_ProgLine-4,&ApplVar.Clerk.Options,1+(Appl_ProgLine-4),
+N);
+..\ER260_China\EOSCLCD\Program.c(1380): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+      DispStrXY(SysBuf,10-SysBuf[8],0xff);
+..\ER260_China\EOSCLCD\Program.c(1474): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+              CheckBitValue(
+EADCENTER,&
+BLHIPRN,4,0);
+..\ER260_China\EOSCLCD\Program.c(1479): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+              CheckBitValue(
+EADDBLHIGH,&
+M_PM,3,0);
+..\ER260_China\EOSCLCD\Program.c(1484): warning:  #167-D: argument of type "const char *" is incompatible with parameter of type "const uint8_t *"
+              DispStrXY(GrapType[0],0,0xff);
+..\ER260_China\EOSCLCD\Program.c(1571): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+              CheckBitValue(
+RAILCENTER,&
+BLHIPRN,5,0);
+..\ER260_China\EOSCLCD\Program.c(1576): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+              CheckBitValue(
+RAILDBLHIGH,&
+M_PM,4,0);
+..\ER260_China\EOSCLCD\Program.c(1581): warning:  #167-D: argument of type "const char *" is incompatible with parameter of type "const uint8_t *"
+              DispStrXY(GrapType[2],0,0xff);
+..\ER260_China\EOSCLCD\Program.c(1669): warning:  #167-D: argument of type "const char *" is incompatible with parameter of type "const uint8_t *"
+          DispStrXY(SysFlagUsed[Appl_ProgLine-2].Name,0,0xff);//SysOpt
+..\ER260_China\EOSCLCD\Program.c(1687): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+                      DispStrXY(SysBuf, 
+ETUPDISPX ,0xff);
+..\ER260_China\EOSCLCD\Program.c(1881): warning:  #167-D: argument of type "const char *" is incompatible with parameter of type "const uint8_t *"
+          DispStrXY(Msg[
+sgDATETYPE].str,0,0xff);
+..\ER260_China\EOSCLCD\Program.c(1893): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+          DispStrXY(ProgLineMes,
+CREENWD-9,
+ATE_Y+1);
+..\ER260_China\EOSCLCD\Program.c(1899): warning:  #167-D: argument of type "const char *" is incompatible with parameter of type "const uint8_t *"
+          DispStrXY(Msg[
+IQIF].str,0,0xff);
+..\ER260_China\EOSCLCD\Program.c(1920): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+                  DispStrXY(ProgLineMes,
+CREENWD-9,
+ATE_Y+1);
+..\ER260_China\EOSCLCD\Program.c(1954): warning:  #167-D: argument of type "const char *" is incompatible with parameter of type "const uint8_t *"
+          DispStrXY(Msg[
+HIJIANF].str,0,0xff);
+..\ER260_China\EOSCLCD\Program.c(2111): warning:  #167-D: argument of type "const char *" is incompatible with parameter of type "const uint8_t *"
+          DispStrXY(GrapSet[0], 0,0xff);
+..\ER260_China\EOSCLCD\Program.c(2116): warning:  #167-D: argument of type "const char *" is incompatible with parameter of type "const uint8_t *"
+          DispStrXY(GrapSet[1], 0,0xff);
+..\ER260_China\EOSCLCD\Program.c(2133): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+              GetString(
+YWZI,ApplVar.GrafTexts[Appl_ProgLine-6], 
+RTLEN,Appl_ProgLine-5);
+..\ER260_China\EOSCLCD\Program.c(2160): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+          CheckBitValue(
+CCA,(
+YTE *)&ApplVar.ICCardSet.Options,1,0);
+..\ER260_China\EOSCLCD\Program.c(2194): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+              GetBCDValue(
+OSDAIMA,TempStr,4,
+RUE);
+..\ER260_China\EOSCLCD\Program.c(2211): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+              GetBCDValue(
+OSDAIMA,TempStr,4,
+RUE);
+..\ER260_China\EOSCLCD\Program.c(2237): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+          CheckBitValue(
+HEKOUCA+Appl_ProgLine-6,(
+YTE *)&ApplVar.ICCardSet.Options,2+(Appl_ProgLine-6),0);
+..\ER260_China\EOSCLCD\Program.c(2244): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+              GetBCDValue(
+DJER,ApplVar.ICCardSet.Value,3,
+ALSE);
+..\ER260_China\EOSCLCD\Program.c(2253): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+              GetBCDValue(
+XJERF,ApplVar.ICCardSet.MiniNum,3,
+ALSE);
+..\ER260_China\EOSCLCD\Program.c(2269): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+              CheckBitValue(
+JJIAN,(
+YTE *)&ApplVar.ICCardSet.Options,8,0);
+..\ER260_China\EOSCLCD\Program.c(2274): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+          CheckBitValue(
+YXYQI,(
+YTE *)&ApplVar.ICCardSet.Options+1,1,0);//
+..\ER260_China\EOSCLCD\Program.c(2297): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+          CheckBitValue(
+HJSHDING,&
+ROMOTION,1,
+N);
+..\ER260_China\EOSCLCD\Program.c(2316): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+              GetBCDValue(
+XJERF,ApplVar.AP.Promotion.JollyMin,4,
+ALSE);
+..\ER260_China\EOSCLCD\Program.c(2343): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+          CheckBitValue(
+FJIFEN,&
+ROMOTION,2,
+N);
+..\ER260_China\EOSCLCD\Program.c(2350): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+              GetBCDValue(
+DJER,ApplVar.AP.Promotion.PointVal,4,
+ALSE);
+..\ER260_China\EOSCLCD\Program.c(2360): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+              GetBCDValue(
+XJERF,ApplVar.AP.Promotion.PointMin,4,
+ALSE);
+..\ER260_China\EOSCLCD\Program.c(2565): warning:  #167-D: argument of type "const char *" is incompatible with parameter of type "const uint8_t *"
+          DispStrXY(Msg[
+YJXHAO].str,0,0xff);
+..\ER260_China\EOSCLCD\Program.c(2607): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+              CheckBitValue(
+PDYZE+Appl_ProgLine-6,&SetKP->type,(Appl_ProgLine),sYN);
+..\ER260_China\EOSCLCD\Program.c(2652): warning:  #167-D: argument of type "const char *" is incompatible with parameter of type "const uint8_t *"
+              DispStrXY(Msg[
+YJXHAO].str,0,0xff);
+..\ER260_China\EOSCLCD\Program.c(2692): warning:  #167-D: argument of type "const char *" is incompatible with parameter of type "const uint8_t *"
+          DispStrXY(Msg[
+DJIXING].str,0,0xff);
+..\ER260_China\EOSCLCD\Program.c(2732): warning:  #167-D: argument of type "const char *" is incompatible with parameter of type "const uint8_t *"
+              DispStrXY(Msg[
+AYXXI].str,0,0xff);
+..\ER260_China\EOSCLCD\Program.c(2801): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+      GetBCDValue(
+UASHIIC,TempStr,4,
+RUE);
+..\ER260_China\EOSCLCD\Program.c(2810): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+      DispStrXY(SysBuf+2,6,0xff);
+..\ER260_China\EOSCLCD\Program.c(2849): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+          GetHEXValue(Msg[
+CRNETID].str,ApplVar.IP.ECR_ID,sizeof(ApplVar.IP.ECR_ID));
+..\ER260_China\EOSCLCD\Program.c(2929): warning:  #177-D: variable "oldPort" was declared but never referenced
+      BYTE oldPort;
+..\ER260_China\EOSCLCD\Program.c(2976): warning:  #177-D: variable "i" was declared but never referenced
+      short i;
+..\ER260_China\EOSCLCD\Program.c(2978): warning:  #177-D: variable "SetKP" was declared but never referenced
+      struct PRINTER *SetKP;
+..\ER260_China\EOSCLCD\Program.c(3076): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+              CheckBitValue(
+RICEBARCODE,&
+RT_LEVEL,4,0);
+..\ER260_China\EOSCLCD\Program.c(3119): warning:  #167-D: argument of type "const char *" is incompatible with parameter of type "const uint8_t *"
+              DispStrXY(Msg[
+ZCHXHAO].str,0,0xff);
+..\ER260_China\EOSCLCD\Program.c(3194): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+                      DispStrXY(sDispBuf, 
+CREENWD-3 ,y);
+..\ER260_China\EOSCLCD\Program.c(3238): warning:  #167-D: argument of type "const char *" is incompatible with parameter of type "const uint8_t *"
+                      DispStrXY(Msg[
+AI].str, 
+CREENWD-3 ,y);
+..\ER260_China\EOSCLCD\Program.c(3240): warning:  #167-D: argument of type "const char *" is incompatible with parameter of type "const uint8_t *"
+                      DispStrXY(Msg[
+UAN].str, 
+CREENWD-3 ,y);
+..\ER260_China\EOSCLCD\Program.c(3304): warning:  #940-D: missing return statement at end of non-void function "NewProgSysFlag"
+  }
+..\ER260_China\EOSCLCD\Program.c(3325): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+          if (GetString(
+INCHENF, ApplVar.AP.KeyMacros[tmpNumber].Name,
+ACRONAME-1,0))
+..\ER260_China\EOSCLCD\Program.c(3338): warning:  #167-D: argument of type "const char *" is incompatible with parameter of type "const uint8_t *"
+                      DispStrXY(Msg[
+NMA].str,0,0xff);
+..\ER260_China\EOSCLCD\Program.c(3376): warning:  #177-D: variable "tmpW" was declared but never referenced
+      WORD tmpW;
+..\ER260_China\EOSCLCD\Program.c(3378): warning:  #177-D: variable "tmpL" was declared but never referenced
+      ULONG tmpL;
+..\ER260_China\EOSCLCD\Program.c(3655): warning:  #167-D: argument of type "const char *" is incompatible with parameter of type "const uint8_t *"
+              DispStrXY(Msg[
+ETPOINTTYPE].str,0,0xff);
+..\ER260_China\EOSCLCD\Program.c(3642): warning:  #177-D: variable "tmpB" was declared but never referenced
+      BYTE tmpB;
+..\ER260_China\EOSCLCD\Program.c(3709): warning:  #167-D: argument of type "const char *" is incompatible with parameter of type "const uint8_t *"
+          DispStrXY(Msg[
+MHYHAO].str,0,0xff);
+..\ER260_China\EOSCLCD\Program.c(3718): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+              HEXtoASCX0(ProgLineMes + 
+ETINPUTWD - Appl_MaxEntry,ECRVIP.VipFix.VipTEL,sizeof(ECRVIP.VipFix.VipTEL));
+..\ER260_China\EOSCLCD\Program.c(3720): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+              HEXtoASCX0(ProgLineMes,ECRVIP.VipFix.VipTEL,
+ETINPUTWD/2);
+..\ER260_China\EOSCLCD\Program.c(3692): warning:  #177-D: variable "i" was declared but never referenced
+      WORD i;
+..\ER260_China\EOSCLCD\Program.c(3693): warning:  #177-D: variable "tmpB" was declared but never referenced
+      BYTE tmpB;
+..\ER260_China\EOSCLCD\Program.c(3694): warning:  #177-D: variable "tmpL" was declared but never referenced
+      ULONG tmpL;
+..\ER260_China\EOSCLCD\Program.c: 91 warnings, 0 errors
+compiling Tax.c...
+..\ER260_China\EOSCLCD\bios.h(528): warning:  #47-D: incompatible redefinition of macro "LCD10_SetFlag" (declared at line 29 of "..\STM32F103Driver\USER\inc\led_customer.h")
+  #define LCD10_SetFlag(a)  {}
+..\ER260_China\EOSCLCD\CHNDisp.h(115): warning:  #1295-D: Deprecated declaration RecallScreen - give arg types
+  extern void RecallScreen();
+..\ER260_China\EOSCLCD\MessageEN_P32_M.h(251): warning:  #47-D: incompatible redefinition of macro "EditN24" (declared at line 594 of "..\ER260_China\EOSCLCD\MessageEN_260_M.h")
+  #define EditN24                   " ARCHIVO    GRABAR    RAM"  // "?募???      ??录??      ?占浯?小"         
+..\ER260_China\EOSCLCD\MessageEN_P32_M.h(252): warning:  #47-D: incompatible redefinition of macro "EditN25" (declared at line 595 of "..\ER260_China\EOSCLCD\MessageEN_260_M.h")
+  #define EditN25                   " PUERTO     TIPO  PROTOCOLO  "  // "串????    通???啾?   通??协??"   
+..\ER260_China\EOSCLCD\MessageEN_P32_M.h(365): warning:  #47-D: incompatible redefinition of macro "Msg_MANAGEMENT" (declared at line 1079 of "..\ER260_China\EOSCLCD\MessageEN_260_M.h")
+  #define Msg_MANAGEMENT "LISTADO DE ADMINISTRADOR "
+..\ER260_China\EOSCLCD\Tax.c(562): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *restrict"
+  								strcpy(ProgLineMes,ApplVar.Tax.Name);
+..\ER260_China\EOSCLCD\Tax.c(599): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+  							
+opyFrStr(ProgLineMes,ApplVar.Tax.Name);
+..\ER260_China\EOSCLCD\Tax.c(685): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+  							PrintAmt(ApplVar.Tax.Name, &ApplVar.Cost);
+..\ER260_China\EOSCLCD\Tax.c(147): warning:  #550-D: variable "printsub" was set but never used
+  	BYTE printsub;
+..\ER260_China\EOSCLCD\Tax.c(148): warning:  #177-D: variable "SaveSign" was declared but never referenced
+  	BYTE calcgst, SaveSign;
+..\ER260_China\EOSCLCD\Tax.c: 10 warnings, 0 errors
+compiling Tender.c...
+..\ER260_China\EOSCLCD\bios.h(528): warning:  #47-D: incompatible redefinition of macro "LCD10_SetFlag" (declared at line 29 of "..\STM32F103Driver\USER\inc\led_customer.h")
+  #define LCD10_SetFlag(a)  {}
+..\ER260_China\EOSCLCD\CHNDisp.h(115): warning:  #1295-D: Deprecated declaration RecallScreen - give arg types
+  extern void RecallScreen();
+..\ER260_China\EOSCLCD\MessageEN_P32_M.h(251): warning:  #47-D: incompatible redefinition of macro "EditN24" (declared at line 594 of "..\ER260_China\EOSCLCD\MessageEN_260_M.h")
+  #define EditN24                   " ARCHIVO    GRABAR    RAM"  // "?募???      ??录??      ?占浯?小"         
+..\ER260_China\EOSCLCD\MessageEN_P32_M.h(252): warning:  #47-D: incompatible redefinition of macro "EditN25" (declared at line 595 of "..\ER260_China\EOSCLCD\MessageEN_260_M.h")
+  #define EditN25                   " PUERTO     TIPO  PROTOCOLO  "  // "串????    通???啾?   通??协??"   
+..\ER260_China\EOSCLCD\MessageEN_P32_M.h(365): warning:  #47-D: incompatible redefinition of macro "Msg_MANAGEMENT" (declared at line 1079 of "..\ER260_China\EOSCLCD\MessageEN_260_M.h")
+  #define Msg_MANAGEMENT "LISTADO DE ADMINISTRADOR "
+..\ER260_China\EOSCLCD\Tender.c(228): warning:  #223-D: function "CC_MFRCard" declared implicitly
+                          if(!CC_MFRCard())// ???钥??欠癖?取??  //
+..\ER260_China\EOSCLCD\Tender.c(502): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+              
+ispSt0(DispAmtStr(Msg[DAIFU].str, &ApplVar.Price,SCREENWD));/* ??示?督鸲? */ //RG-DISPLAY
+..\ER260_China\EOSCLCD\Tender.c(576): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+  				    PrintAmt(ApplVar.Draw.Name, &ApplVar.Amt);
+..\ER260_China\EOSCLCD\Tender.c(591): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+  				    PrintStr(ApplVar.Curr.Name);
+..\ER260_China\EOSCLCD\Tender.c(608): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+  					PrintAmt(ApplVar.Tend.Name, &ApplVar.Price);  //??示??一???湛詈蟮牟疃?
+..\ER260_China\EOSCLCD\Tender.c(630): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+  						  PrintAmt(ApplVar.Curr.Name, &ApplVar.Price);
+..\ER260_China\EOSCLCD\Tender.c(645): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+  						PrintStr(ApplVar.Curr.Name);
+..\ER260_China\EOSCLCD\Tender.c(652): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+  				    PrintAmt(ApplVar.Tend.Name, &ApplVar.Entry);
+..\ER260_China\EOSCLCD\Tender.c(673): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+  				PrintStr(ApplVar.Curr.Name);
+..\ER260_China\EOSCLCD\Tender.c(678): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+  		    PrintAmt(ApplVar.Tend.Name, &ApplVar.Entry);
+..\ER260_China\EOSCLCD\Tender.c(52): warning:  #177-D: variable "sTotal" was declared but never referenced
+  	BCD		sSave,sTotal;
+..\ER260_China\EOSCLCD\Tender.c: 17 warnings, 0 errors
+linking...
+Program Size: Code=230516 RO-data=30184 RW-data=776 ZI-data=115212  
+FromELF: creating hex file...
+After Build - User command #1: D:\keil4\ARM\ARMCC\bin\fromelf.exe --bin --output .\obj_STMF103\aER520UK_EN_DOTP.bin .\obj_STMF103\aER520UK_EN_DOTP.axf
+".\obj_STMF103\aER520UK_EN_DOTP.axf" - 0 Error(s), 731 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.4.5.0.pack
+                ARM::CMSIS:CORE:4.3.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 4.3.0
+
+<h2>Collection of Component include folders:</h2>
+  E:\ER520M\GIADA3000U\RTE
+  D:\keil5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include
+  D:\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:4.3.0
+Build Time Elapsed:  00:00:46
+</pre>
+</body>
+</html>

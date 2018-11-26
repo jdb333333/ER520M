@@ -1,0 +1,8 @@
+---- LineEditor Matches (7 in 4 files) ----
+CHNInput.c (E:\ER520M\ER260_China\EOSCLCD) line 1143 : BYTE LineEditor(union KEY ch)
+GetStringCHN in CHNInput.c (E:\ER520M\ER260_China\EOSCLCD) : 	        saveRet=LineEditor(*((union KEY*)&keyno));// 调用编辑器,对输入内容进行编辑  //
+GetStringCHN in CHNInput.c (E:\ER520M\ER260_China\EOSCLCD) :         saveRet=LineEditor(*((union KEY*)&keyno));// 调用编辑器,对输入内容进行编辑  //
+CheckFirmKey in Firmkey.c (E:\ER520M\ER260_China\EOSCLCD) :     if (Appl_ProgLine!=2 && !TESTBIT(ApplVar.MyFlags,HANZIMODE))//ccr2015-03-10 not in LineEditor
+KeyInput in Main.c (E:\ER520M\ER260_China\EOSCLCD) :     saveRet = LineEditor(*((union KEY *)&keyno));//编辑按键输入
+Add_New_PLU in Plu.c (E:\ER520M\ER260_China\EOSCLCD) :             LineEditor(*((union KEY *)&keyno));//编译按键输入
+Add_New_PLU in Plu.c (E:\ER520M\ER260_China\EOSCLCD) :         LineEditor(*((union KEY *)&keyno));//编译按键输入
